@@ -1,1 +1,4 @@
 <p> Bonjour Linguini, quelles patisseries veux-tu choisir ?</p>
+<% @cookers.each do |cooker| %>
+<%= cooker.pastrie %>
+<% end %>
