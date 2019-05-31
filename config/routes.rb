@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root to: 'events#home'
+
+  root to: 'pages#home'
   get 'events/new', to: 'events#new', as: :new
   post 'events', to: 'events#create', as: :create
   get 'events/edit/:id', to: 'events#edit', as: :edit

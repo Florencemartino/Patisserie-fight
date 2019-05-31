@@ -1,9 +1,8 @@
-class EventController < ApplicationController
-
-  def home
-  end
+class EventsController < ApplicationController
 
   def new
+    @pastries = Pastrie.all
+    @event = Event.new
   end
 
   def create
