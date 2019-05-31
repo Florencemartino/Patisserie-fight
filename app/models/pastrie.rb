@@ -1,0 +1,2 @@
+class Pastrie < ApplicationRecord
+end
