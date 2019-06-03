@@ -1,18 +1,29 @@
 <p> Bonjour Linguini, quelles patisseries veux-tu choisir ?</p>
-<% @pastries.each do |pastrie| %>
+
+<%= form_for(@event) do |f| %>
+  <div class="form-group">
+    <%= f.label :name %>
+    <%= f.text_field :name, class: 'form-control' %>
+  </div>
+
+  <%= f.submit class: 'btn btn-primary' %>
+<% end %>
+<!--
+ <%# @pastries.each do |pastrie| %>
   <div class="form-check">
-    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+    <input class="form-check-input" type="checkbox" value="on" id="defaultCheck1">
     <label class="form-check-label" for="defaultCheck1">
       <%= pastrie.pastrie_name %>
     </label>
   </div>
-<% end %>
+<%# end %>
 
-<button type="button" class="btn btn-success">Valider ton choix</button>
+<button type="submit" class="btn btn-success">Valider ton choix</button> -->
 
-  <!-- <div class="form-check">
+<!--  <div class="form-check">
     <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
     <label class="form-check-label" for="defaultCheck2">
       Disabled checkbox
     </label>
-  </div> -->
+  </div>
+ -->

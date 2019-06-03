@@ -10,29 +10,29 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_06_03_111245) do
+ActiveRecord::Schema.define(version: 2019_06_03_174335) do
 
   create_table "cookers", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "pastrie"
+    t.integer "event_id"
+    t.index ["event_id"], name: "index_cookers_on_event_id"
   end
 
   create_table "events", force: :cascade do |t|
     t.datetime "date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.integer "cooker_id"
-    t.integer "pastrie_id"
-    t.index ["cooker_id"], name: "index_events_on_cooker_id"
-    t.index ["pastrie_id"], name: "index_events_on_pastrie_id"
   end
 
   create_table "pastries", force: :cascade do |t|
     t.string "pastrie_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "event_id"
+    t.index ["event_id"], name: "index_pastries_on_event_id"
   end
 
 end
