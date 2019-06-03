@@ -34,7 +34,5 @@ Churros = Pastrie.create!(pastrie_name: "Churros")
 Flan = Pastrie.create!(pastrie_name: "Flan")
 Fruits = Pastrie.create!(pastrie_name: "Fruits")
 
-puts 'Creating events...'
-event_1 = Event.create!(pastrie_id: Pastrie.first.id, cooker_id: "Antoine", date: Date.today)
 
 puts "Finished, we have #{Cooker.count} cookers and #{Pastrie.count} pastries."

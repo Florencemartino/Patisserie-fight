@@ -1,6 +1,7 @@
 class EventsController < ApplicationController
 
   def new
+    #Linguini cree une patisserie fight et choisi des pastries_id
     @event = Event.new
     @pastries = Pastrie.all
   end
@@ -12,6 +13,7 @@ class EventsController < ApplicationController
   end
 
   def edit
+    #Le Chief happiness officer récupere l'id de l'event crée, et choisi les cookers.
   end
 
   def update
