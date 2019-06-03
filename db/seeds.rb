@@ -6,7 +6,12 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+
 puts 'Cleaning database...'
+
+Cooker.destroy_all
+Pastrie.destroy_all
+
 puts 'Creating cookers...'
 Antoine = Cooker.create!(name: "Antoine", pastrie: "Financier")
 Maia = Cooker.create!(name: "Maia", pastrie: "Financier")
@@ -21,5 +26,12 @@ Sophie = Cooker.create!(name: "Sophie", pastrie: "Fruits")
 Ahmed = Cooker.create!(name: "Ahmed", pastrie: "Fruits")
 Maxime = Cooker.create!(name: "Maxime", pastrie: "Fruits")
 
+puts 'Creating pastries...'
+Financier = Pastrie.create!(pastrie_name: "Financier")
+Cookies = Pastrie.create!(pastrie_name: "Cookies")
+Cornes = Pastrie.create!(pastrie_name: "Cornes de Gazelle")
+Churros = Pastrie.create!(pastrie_name: "Churros")
+Flan = Pastrie.create!(pastrie_name: "Flan")
+Fruits = Pastrie.create!(pastrie_name: "Fruits")
 
-puts "Finished, we have #{Cooker.count} cookers."
+puts "Finished, we have #{Cooker.count} cookers and #{Pastrie.count} pastries."

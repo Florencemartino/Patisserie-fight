@@ -1,7 +1,7 @@
 class EventsController < ApplicationController
 
   def new
-    @cookers = Cooker.all
+    @pastries = Pastrie.all
     @event = Event.new
   end
 

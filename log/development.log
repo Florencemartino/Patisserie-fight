@@ -1087,3 +1087,1077 @@ Processing by EventsController#new as HTML
 Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.1ms)
 
 
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddCookerRefToEvents (20190603105809)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (2.7ms)[0m  [1m[35mALTER TABLE "events" ADD "cooker_id" integer[0m
+  ↳ db/migrate/20190603105809_add_cooker_ref_to_events.rb:3
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190603105809_add_cooker_ref_to_events.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE  INDEX "index_events_on_cooker_id" ON "events" ("cooker_id")[0m
+  ↳ db/migrate/20190603105809_add_cooker_ref_to_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603105809"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddPastrieRefToEvents (20190603105923)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "events" ADD "pastrie_id" integer[0m
+  ↳ db/migrate/20190603105923_add_pastrie_ref_to_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190603105923_add_pastrie_ref_to_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_events_on_pastrie_id" ON "events" ("pastrie_id")[0m
+  ↳ db/migrate/20190603105923_add_pastrie_ref_to_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603105923"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mCooker Create (0.5ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Antoine"], ["created_at", "2019-06-03 11:07:15.880710"], ["updated_at", "2019-06-03 11:07:15.880710"], ["pastrie", "Financier"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Maia"], ["created_at", "2019-06-03 11:07:15.883957"], ["updated_at", "2019-06-03 11:07:15.883957"], ["pastrie", "Financier"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Xavier"], ["created_at", "2019-06-03 11:07:15.886090"], ["updated_at", "2019-06-03 11:07:15.886090"], ["pastrie", "Cookies"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mCooker Create (0.4ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Matthieu"], ["created_at", "2019-06-03 11:07:15.888443"], ["updated_at", "2019-06-03 11:07:15.888443"], ["pastrie", "Cookies"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Rym"], ["created_at", "2019-06-03 11:07:15.891725"], ["updated_at", "2019-06-03 11:07:15.891725"], ["pastrie", "Corne de gazelle"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Aran"], ["created_at", "2019-06-03 11:07:15.894965"], ["updated_at", "2019-06-03 11:07:15.894965"], ["pastrie", "Churros"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mCooker Create (0.8ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Ines"], ["created_at", "2019-06-03 11:07:15.898104"], ["updated_at", "2019-06-03 11:07:15.898104"], ["pastrie", "Churros"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Marguerite"], ["created_at", "2019-06-03 11:07:15.902057"], ["updated_at", "2019-06-03 11:07:15.902057"], ["pastrie", "Flan"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Roxane"], ["created_at", "2019-06-03 11:07:15.904917"], ["updated_at", "2019-06-03 11:07:15.904917"], ["pastrie", "Flan"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mCooker Create (0.4ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Sophie"], ["created_at", "2019-06-03 11:07:15.908726"], ["updated_at", "2019-06-03 11:07:15.908726"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Ahmed"], ["created_at", "2019-06-03 11:07:15.911571"], ["updated_at", "2019-06-03 11:07:15.911571"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Maxime"], ["created_at", "2019-06-03 11:07:15.913629"], ["updated_at", "2019-06-03 11:07:15.913629"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mCooker Create (0.4ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Antoine"], ["created_at", "2019-06-03 11:08:11.360096"], ["updated_at", "2019-06-03 11:08:11.360096"], ["pastrie", "Financier"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Maia"], ["created_at", "2019-06-03 11:08:11.365211"], ["updated_at", "2019-06-03 11:08:11.365211"], ["pastrie", "Financier"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mCooker Create (0.4ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Xavier"], ["created_at", "2019-06-03 11:08:11.367967"], ["updated_at", "2019-06-03 11:08:11.367967"], ["pastrie", "Cookies"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Matthieu"], ["created_at", "2019-06-03 11:08:11.370667"], ["updated_at", "2019-06-03 11:08:11.370667"], ["pastrie", "Cookies"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Rym"], ["created_at", "2019-06-03 11:08:11.372972"], ["updated_at", "2019-06-03 11:08:11.372972"], ["pastrie", "Corne de gazelle"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Aran"], ["created_at", "2019-06-03 11:08:11.375990"], ["updated_at", "2019-06-03 11:08:11.375990"], ["pastrie", "Churros"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Ines"], ["created_at", "2019-06-03 11:08:11.379461"], ["updated_at", "2019-06-03 11:08:11.379461"], ["pastrie", "Churros"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Marguerite"], ["created_at", "2019-06-03 11:08:11.384230"], ["updated_at", "2019-06-03 11:08:11.384230"], ["pastrie", "Flan"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Roxane"], ["created_at", "2019-06-03 11:08:11.387062"], ["updated_at", "2019-06-03 11:08:11.387062"], ["pastrie", "Flan"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mCooker Create (0.4ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Sophie"], ["created_at", "2019-06-03 11:08:11.390344"], ["updated_at", "2019-06-03 11:08:11.390344"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mCooker Create (0.4ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Ahmed"], ["created_at", "2019-06-03 11:08:11.393227"], ["updated_at", "2019-06-03 11:08:11.393227"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Maxime"], ["created_at", "2019-06-03 11:08:11.395807"], ["updated_at", "2019-06-03 11:08:11.395807"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mCooker Create (0.4ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Antoine"], ["created_at", "2019-06-03 11:09:15.597092"], ["updated_at", "2019-06-03 11:09:15.597092"], ["pastrie", "Financier"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Maia"], ["created_at", "2019-06-03 11:09:15.601604"], ["updated_at", "2019-06-03 11:09:15.601604"], ["pastrie", "Financier"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Xavier"], ["created_at", "2019-06-03 11:09:15.604128"], ["updated_at", "2019-06-03 11:09:15.604128"], ["pastrie", "Cookies"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Matthieu"], ["created_at", "2019-06-03 11:09:15.606508"], ["updated_at", "2019-06-03 11:09:15.606508"], ["pastrie", "Cookies"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Rym"], ["created_at", "2019-06-03 11:09:15.609159"], ["updated_at", "2019-06-03 11:09:15.609159"], ["pastrie", "Corne de gazelle"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Aran"], ["created_at", "2019-06-03 11:09:15.611475"], ["updated_at", "2019-06-03 11:09:15.611475"], ["pastrie", "Churros"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Ines"], ["created_at", "2019-06-03 11:09:15.614589"], ["updated_at", "2019-06-03 11:09:15.614589"], ["pastrie", "Churros"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mCooker Create (0.2ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Marguerite"], ["created_at", "2019-06-03 11:09:15.617181"], ["updated_at", "2019-06-03 11:09:15.617181"], ["pastrie", "Flan"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Roxane"], ["created_at", "2019-06-03 11:09:15.619845"], ["updated_at", "2019-06-03 11:09:15.619845"], ["pastrie", "Flan"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Sophie"], ["created_at", "2019-06-03 11:09:15.622483"], ["updated_at", "2019-06-03 11:09:15.622483"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mCooker Create (1.0ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Ahmed"], ["created_at", "2019-06-03 11:09:15.626229"], ["updated_at", "2019-06-03 11:09:15.626229"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Maxime"], ["created_at", "2019-06-03 11:09:15.630958"], ["updated_at", "2019-06-03 11:09:15.630958"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to ChangeColumnName (20190603111245)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to ChangeColumnName (20190603111245)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "apastries" ("id" integer NOT NULL PRIMARY KEY, "pastrie_name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.6ms)[0m  [1m[32mINSERT INTO "apastries" ("id","pastrie_name","created_at","updated_at")
+                     SELECT "id","type","created_at","updated_at" FROM "pastries"[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "pastries"[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "pastries" ("id" integer NOT NULL PRIMARY KEY, "pastrie_name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "pastries" ("id","pastrie_name","created_at","updated_at")
+                     SELECT "id","pastrie_name","created_at","updated_at" FROM "apastries"[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "apastries"[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603111245"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[36mCooker Create (0.4ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Antoine"], ["created_at", "2019-06-03 11:16:07.621489"], ["updated_at", "2019-06-03 11:16:07.621489"], ["pastrie", "Financier"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Maia"], ["created_at", "2019-06-03 11:16:07.625357"], ["updated_at", "2019-06-03 11:16:07.625357"], ["pastrie", "Financier"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Xavier"], ["created_at", "2019-06-03 11:16:07.627620"], ["updated_at", "2019-06-03 11:16:07.627620"], ["pastrie", "Cookies"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Matthieu"], ["created_at", "2019-06-03 11:16:07.630581"], ["updated_at", "2019-06-03 11:16:07.630581"], ["pastrie", "Cookies"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Rym"], ["created_at", "2019-06-03 11:16:07.633240"], ["updated_at", "2019-06-03 11:16:07.633240"], ["pastrie", "Corne de gazelle"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCooker Create (0.4ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Aran"], ["created_at", "2019-06-03 11:16:07.636494"], ["updated_at", "2019-06-03 11:16:07.636494"], ["pastrie", "Churros"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mCooker Create (0.7ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Ines"], ["created_at", "2019-06-03 11:16:07.639450"], ["updated_at", "2019-06-03 11:16:07.639450"], ["pastrie", "Churros"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Marguerite"], ["created_at", "2019-06-03 11:16:07.642384"], ["updated_at", "2019-06-03 11:16:07.642384"], ["pastrie", "Flan"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Roxane"], ["created_at", "2019-06-03 11:16:07.645079"], ["updated_at", "2019-06-03 11:16:07.645079"], ["pastrie", "Flan"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Sophie"], ["created_at", "2019-06-03 11:16:07.647670"], ["updated_at", "2019-06-03 11:16:07.647670"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mCooker Create (0.5ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Ahmed"], ["created_at", "2019-06-03 11:16:07.651783"], ["updated_at", "2019-06-03 11:16:07.651783"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Maxime"], ["created_at", "2019-06-03 11:16:07.657336"], ["updated_at", "2019-06-03 11:16:07.657336"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Financier"], ["created_at", "2019-06-03 11:16:07.663638"], ["updated_at", "2019-06-03 11:16:07.663638"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Cookies"], ["created_at", "2019-06-03 11:16:07.665901"], ["updated_at", "2019-06-03 11:16:07.665901"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Cornes de Gazelle"], ["created_at", "2019-06-03 11:16:07.668151"], ["updated_at", "2019-06-03 11:16:07.668151"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Churros"], ["created_at", "2019-06-03 11:16:07.670085"], ["updated_at", "2019-06-03 11:16:07.670085"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[36mPastrie Create (0.3ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Flan"], ["created_at", "2019-06-03 11:16:07.672244"], ["updated_at", "2019-06-03 11:16:07.672244"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[36mPastrie Create (0.3ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Fruits"], ["created_at", "2019-06-03 11:16:07.674652"], ["updated_at", "2019-06-03 11:16:07.674652"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "cookers"[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pastries"[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mCooker Load (0.7ms)[0m  [1m[34mSELECT "cookers".* FROM "cookers"[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 4]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 5]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 6]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 7]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 8]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 9]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.4ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 10]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 11]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 12]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 13]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 14]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 15]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 16]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 17]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 18]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 19]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 20]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.4ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 21]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 22]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 23]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 24]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 25]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 26]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 27]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 28]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 29]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 30]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 31]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 32]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 33]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 34]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 35]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 36]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 37]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 38]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.4ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 39]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 40]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 41]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 42]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 43]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 44]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 45]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 46]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 47]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 48]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 49]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 50]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.4ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 51]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 52]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 53]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 54]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 55]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 56]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 57]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 58]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 59]]
+  ↳ db/seeds.rb:12
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.3ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 60]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPastrie Load (0.3ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPastrie Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pastries" WHERE "pastries"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:13
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPastrie Destroy (0.4ms)[0m  [1m[31mDELETE FROM "pastries" WHERE "pastries"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPastrie Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pastries" WHERE "pastries"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:13
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPastrie Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pastries" WHERE "pastries"."id" = ?[0m  [["id", 4]]
+  ↳ db/seeds.rb:13
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPastrie Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pastries" WHERE "pastries"."id" = ?[0m  [["id", 5]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPastrie Destroy (0.3ms)[0m  [1m[31mDELETE FROM "pastries" WHERE "pastries"."id" = ?[0m  [["id", 6]]
+  ↳ db/seeds.rb:13
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[36mCooker Create (0.4ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Antoine"], ["created_at", "2019-06-03 11:17:37.788464"], ["updated_at", "2019-06-03 11:17:37.788464"], ["pastrie", "Financier"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Maia"], ["created_at", "2019-06-03 11:17:37.791921"], ["updated_at", "2019-06-03 11:17:37.791921"], ["pastrie", "Financier"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Xavier"], ["created_at", "2019-06-03 11:17:37.795631"], ["updated_at", "2019-06-03 11:17:37.795631"], ["pastrie", "Cookies"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Matthieu"], ["created_at", "2019-06-03 11:17:37.798807"], ["updated_at", "2019-06-03 11:17:37.798807"], ["pastrie", "Cookies"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mCooker Create (0.4ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Rym"], ["created_at", "2019-06-03 11:17:37.801728"], ["updated_at", "2019-06-03 11:17:37.801728"], ["pastrie", "Corne de gazelle"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Aran"], ["created_at", "2019-06-03 11:17:37.804588"], ["updated_at", "2019-06-03 11:17:37.804588"], ["pastrie", "Churros"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Ines"], ["created_at", "2019-06-03 11:17:37.807113"], ["updated_at", "2019-06-03 11:17:37.807113"], ["pastrie", "Churros"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Marguerite"], ["created_at", "2019-06-03 11:17:37.809638"], ["updated_at", "2019-06-03 11:17:37.809638"], ["pastrie", "Flan"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Roxane"], ["created_at", "2019-06-03 11:17:37.811632"], ["updated_at", "2019-06-03 11:17:37.811632"], ["pastrie", "Flan"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Sophie"], ["created_at", "2019-06-03 11:17:37.813901"], ["updated_at", "2019-06-03 11:17:37.813901"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Ahmed"], ["created_at", "2019-06-03 11:17:37.816768"], ["updated_at", "2019-06-03 11:17:37.816768"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Maxime"], ["created_at", "2019-06-03 11:17:37.818870"], ["updated_at", "2019-06-03 11:17:37.818870"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[36mPastrie Create (0.5ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Financier"], ["created_at", "2019-06-03 11:17:37.821768"], ["updated_at", "2019-06-03 11:17:37.821768"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Cookies"], ["created_at", "2019-06-03 11:17:37.824921"], ["updated_at", "2019-06-03 11:17:37.824921"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Cornes de Gazelle"], ["created_at", "2019-06-03 11:17:37.826918"], ["updated_at", "2019-06-03 11:17:37.826918"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mPastrie Create (0.3ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Churros"], ["created_at", "2019-06-03 11:17:37.828740"], ["updated_at", "2019-06-03 11:17:37.828740"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Flan"], ["created_at", "2019-06-03 11:17:37.830908"], ["updated_at", "2019-06-03 11:17:37.830908"]]
+  ↳ db/seeds.rb:34
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Fruits"], ["created_at", "2019-06-03 11:17:37.832902"], ["updated_at", "2019-06-03 11:17:37.832902"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "cookers"[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pastries"[0m
+  ↳ db/seeds.rb:37
+Started GET "/events/new" for ::1 at 2019-06-03 13:18:24 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mCooker Load (0.2ms)[0m  [1m[34mSELECT "cookers".* FROM "cookers"[0m
+  ↳ app/views/events/new.html.erb:2
+  Rendered events/new.html.erb within layouts/application (164.9ms)
+Completed 500 Internal Server Error in 184ms (ActiveRecord: 1.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pastrie' for #<#<Class:0x00007fefc531c268>:0x00007fefc53264c0>
+Did you mean?  @pastries):
+    1: <p> Bonjour Linguini, quelles patisseries veux-tu choisir ?</p>
+    2: <% @pastries.each do |cooker| %>
+    3: <%= pastrie.pastrie_name %>
+    4: <% end %>
+  
+app/views/events/new.html.erb:3:in `block in _app_views_events_new_html_erb__2261052828016501778_70333891143360'
+app/views/events/new.html.erb:2:in `_app_views_events_new_html_erb__2261052828016501778_70333891143360'
+Started PUT "/__web_console/repl_sessions/1fa054ab1f85adb96900bc06bf2c934d" for ::1 at 2019-06-03 13:18:33 +0200
+Started PUT "/__web_console/repl_sessions/1fa054ab1f85adb96900bc06bf2c934d" for ::1 at 2019-06-03 13:18:34 +0200
+Started GET "/events/new" for ::1 at 2019-06-03 13:18:53 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mCooker Load (0.2ms)[0m  [1m[34mSELECT "cookers".* FROM "cookers"[0m
+  ↳ app/views/events/new.html.erb:2
+  Rendered events/new.html.erb within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `pastrie_name' for #<Cooker:0x00007fefc9c5d198>
+Did you mean?  pastrie_was):
+    1: <p> Bonjour Linguini, quelles patisseries veux-tu choisir ?</p>
+    2: <% @pastries.each do |pastrie| %>
+    3: <%= pastrie.pastrie_name %>
+    4: <% end %>
+  
+app/views/events/new.html.erb:3:in `block in _app_views_events_new_html_erb__2261052828016501778_70333929485980'
+app/views/events/new.html.erb:2:in `_app_views_events_new_html_erb__2261052828016501778_70333929485980'
+Started PUT "/__web_console/repl_sessions/0e2273a6023cb5c7304a607e4612279e" for ::1 at 2019-06-03 13:19:19 +0200
+Started PUT "/__web_console/repl_sessions/0e2273a6023cb5c7304a607e4612279e" for ::1 at 2019-06-03 13:19:22 +0200
+Started GET "/events/new" for ::1 at 2019-06-03 13:20:08 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:2
+  Rendered events/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 35ms (Views: 23.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-03 13:28:10 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:2
+  Rendered events/new.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (Missing partial events/_form, application/_form with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/florence/code/tests-techniques/Clothparency/app/views"
+):
+    5: 
+    6: 
+    7: <h3 class="text-center"> Mes patisseries : </h3>
+    8: <%= render 'form', event: @event%>
+  
+app/views/events/new.html.erb:8:in `_app_views_events_new_html_erb__2261052828016501778_70333899422420'
+Started GET "/events/new" for ::1 at 2019-06-03 13:34:04 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:2
+  Rendered events/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-03 13:34:52 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:2
+  Rendered events/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-03 13:38:20 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:2
+  Rendered events/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 17ms (Views: 14.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-03 13:44:03 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:2
+  Rendered events/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.1ms)
+
+
