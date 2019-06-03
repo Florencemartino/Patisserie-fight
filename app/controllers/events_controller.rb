@@ -12,14 +12,20 @@ class EventsController < ApplicationController
     raise
   end
 
+  def index
+    @events = Event.all
+  end
+
   def edit
     #Le Chief happiness officer récupere l'id de l'event crée, et choisi les cookers.
+    @event = Event.find(params[:id])
   end
 
   def update
   end
 
   def show
+    @event = event.find(params[:id])
   end
 
   private

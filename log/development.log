@@ -2823,3 +2823,562 @@ Migrating to RemovePastriesFromEvents (20190603174335)
   ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Started GET "/events/new" for ::1 at 2019-06-03 21:34:32 +0200
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.4ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Pastrie Load (0.0ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Pastrie Load (0.0ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Pastrie Load (0.0ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered events/new.html.erb within layouts/application (105.1ms)
+Completed 500 Internal Server Error in 124ms (ActiveRecord: 1.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `events_path' for #<#<Class:0x00007fefc95f4748>:0x00007fefc9daea60>):
+    1: <p> Bonjour Linguini, quelles patisseries veux-tu choisir ?</p>
+    2: 
+    3: <%= form_for(@event) do |f| %>
+    4:   <div class="form-group">
+    5:     <%= f.label :name %>
+    6:     <%= f.text_field :name, class: 'form-control' %>
+  
+app/views/events/new.html.erb:3:in `_app_views_events_new_html_erb__2261052828016501778_70333926189180'
+Started PUT "/__web_console/repl_sessions/210a4ed7fec1c8572b358b5623c0d10b" for ::1 at 2019-06-03 21:34:35 +0200
+Started PUT "/__web_console/repl_sessions/210a4ed7fec1c8572b358b5623c0d10b" for ::1 at 2019-06-03 21:34:37 +0200
+Started PUT "/__web_console/repl_sessions/210a4ed7fec1c8572b358b5623c0d10b" for ::1 at 2019-06-03 21:34:38 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mCooker Load (0.7ms)[0m  [1m[34mSELECT "cookers".* FROM "cookers"[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.5ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 61]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 62]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 63]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 64]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 65]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 66]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 67]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 68]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 69]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 70]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 71]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mCooker Destroy (0.2ms)[0m  [1m[31mDELETE FROM "cookers" WHERE "cookers"."id" = ?[0m  [["id", 72]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPastrie Load (0.3ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPastrie Destroy (0.5ms)[0m  [1m[31mDELETE FROM "pastries" WHERE "pastries"."id" = ?[0m  [["id", 1]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPastrie Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pastries" WHERE "pastries"."id" = ?[0m  [["id", 2]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPastrie Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pastries" WHERE "pastries"."id" = ?[0m  [["id", 3]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPastrie Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pastries" WHERE "pastries"."id" = ?[0m  [["id", 4]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPastrie Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pastries" WHERE "pastries"."id" = ?[0m  [["id", 5]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[36mPastrie Destroy (0.2ms)[0m  [1m[31mDELETE FROM "pastries" WHERE "pastries"."id" = ?[0m  [["id", 6]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mCooker Load (0.2ms)[0m  [1m[34mSELECT "cookers".* FROM "cookers"[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[36mEvent Create (0.5ms)[0m  [1m[32mINSERT INTO "events" ("date", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["date", "2019-06-03 00:00:00"], ["created_at", "2019-06-03 19:37:03.465316"], ["updated_at", "2019-06-03 19:37:03.465316"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mCooker Create (0.5ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie", "event_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Antoine"], ["created_at", "2019-06-03 19:37:03.487091"], ["updated_at", "2019-06-03 19:37:03.487091"], ["pastrie", "Financier"], ["event_id", 1]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:19
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie", "event_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Maia"], ["created_at", "2019-06-03 19:37:03.491117"], ["updated_at", "2019-06-03 19:37:03.491117"], ["pastrie", "Financier"], ["event_id", 1]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie", "event_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Xavier"], ["created_at", "2019-06-03 19:37:03.493717"], ["updated_at", "2019-06-03 19:37:03.493717"], ["pastrie", "Cookies"], ["event_id", 1]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie", "event_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Matthieu"], ["created_at", "2019-06-03 19:37:03.496406"], ["updated_at", "2019-06-03 19:37:03.496406"], ["pastrie", "Cookies"], ["event_id", 1]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:22
+  [1m[36mCooker Create (0.5ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie", "event_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Rym"], ["created_at", "2019-06-03 19:37:03.499840"], ["updated_at", "2019-06-03 19:37:03.499840"], ["pastrie", "Corne de gazelle"], ["event_id", 1]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie", "event_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Aran"], ["created_at", "2019-06-03 19:37:03.503435"], ["updated_at", "2019-06-03 19:37:03.503435"], ["pastrie", "Churros"], ["event_id", 1]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[36mCooker Create (0.6ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie", "event_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Ines"], ["created_at", "2019-06-03 19:37:03.508901"], ["updated_at", "2019-06-03 19:37:03.508901"], ["pastrie", "Churros"], ["event_id", 1]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:25
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie", "event_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Marguerite"], ["created_at", "2019-06-03 19:37:03.512667"], ["updated_at", "2019-06-03 19:37:03.512667"], ["pastrie", "Flan"], ["event_id", 1]]
+  ↳ db/seeds.rb:25
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:26
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie", "event_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Roxane"], ["created_at", "2019-06-03 19:37:03.515218"], ["updated_at", "2019-06-03 19:37:03.515218"], ["pastrie", "Flan"], ["event_id", 1]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:27
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie", "event_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Sophie"], ["created_at", "2019-06-03 19:37:03.517824"], ["updated_at", "2019-06-03 19:37:03.517824"], ["pastrie", "Fruits"], ["event_id", 1]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:28
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie", "event_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Ahmed"], ["created_at", "2019-06-03 19:37:03.520319"], ["updated_at", "2019-06-03 19:37:03.520319"], ["pastrie", "Fruits"], ["event_id", 1]]
+  ↳ db/seeds.rb:28
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:29
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie", "event_id") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Maxime"], ["created_at", "2019-06-03 19:37:03.523234"], ["updated_at", "2019-06-03 19:37:03.523234"], ["pastrie", "Fruits"], ["event_id", 1]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:32
+  [1m[36mPastrie Create (0.3ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at", "event_id") VALUES (?, ?, ?, ?)[0m  [["pastrie_name", "Financier"], ["created_at", "2019-06-03 19:37:03.530774"], ["updated_at", "2019-06-03 19:37:03.530774"], ["event_id", 1]]
+  ↳ db/seeds.rb:32
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:33
+  [1m[36mPastrie Create (0.3ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at", "event_id") VALUES (?, ?, ?, ?)[0m  [["pastrie_name", "Cookies"], ["created_at", "2019-06-03 19:37:03.533581"], ["updated_at", "2019-06-03 19:37:03.533581"], ["event_id", 1]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[36mEvent Load (1.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:34
+  [1m[36mPastrie Create (0.3ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at", "event_id") VALUES (?, ?, ?, ?)[0m  [["pastrie_name", "Cornes de Gazelle"], ["created_at", "2019-06-03 19:37:03.592683"], ["updated_at", "2019-06-03 19:37:03.592683"], ["event_id", 1]]
+  ↳ db/seeds.rb:34
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:35
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at", "event_id") VALUES (?, ?, ?, ?)[0m  [["pastrie_name", "Churros"], ["created_at", "2019-06-03 19:37:03.596383"], ["updated_at", "2019-06-03 19:37:03.596383"], ["event_id", 1]]
+  ↳ db/seeds.rb:35
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:36
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:36
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at", "event_id") VALUES (?, ?, ?, ?)[0m  [["pastrie_name", "Flan"], ["created_at", "2019-06-03 19:37:03.599088"], ["updated_at", "2019-06-03 19:37:03.599088"], ["event_id", 1]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ db/seeds.rb:37
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at", "event_id") VALUES (?, ?, ?, ?)[0m  [["pastrie_name", "Fruits"], ["created_at", "2019-06-03 19:37:03.601922"], ["updated_at", "2019-06-03 19:37:03.601922"], ["event_id", 1]]
+  ↳ db/seeds.rb:37
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "cookers"[0m
+  ↳ db/seeds.rb:43
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pastries"[0m
+  ↳ db/seeds.rb:43
+Started GET "/events/new" for ::1 at 2019-06-03 21:37:15 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.4ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Pastrie Load (0.0ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Pastrie Load (0.0ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Pastrie Load (0.0ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered events/new.html.erb within layouts/application (86.6ms)
+Completed 500 Internal Server Error in 91ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `events_path' for #<#<Class:0x00007fefc95f4748>:0x00007fefc53ccfc8>):
+    1: <p> Bonjour Linguini, quelles patisseries veux-tu choisir ?</p>
+    2: 
+    3: <%= form_for(@event) do |f| %>
+    4:   <div class="form-group">
+    5:     <%= f.label :name %>
+    6:     <%= f.text_field :name, class: 'form-control' %>
+  
+app/views/events/new.html.erb:3:in `_app_views_events_new_html_erb__2261052828016501778_70333891505340'
+Started PUT "/__web_console/repl_sessions/109db66825c24e10cce30eb150148e6a" for ::1 at 2019-06-03 21:37:20 +0200
+Started PUT "/__web_console/repl_sessions/109db66825c24e10cce30eb150148e6a" for ::1 at 2019-06-03 21:37:22 +0200
+Started PUT "/__web_console/repl_sessions/109db66825c24e10cce30eb150148e6a" for ::1 at 2019-06-03 21:37:30 +0200
+Started PUT "/__web_console/repl_sessions/109db66825c24e10cce30eb150148e6a" for ::1 at 2019-06-03 21:37:31 +0200
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started PUT "/__web_console/repl_sessions/109db66825c24e10cce30eb150148e6a" for ::1 at 2019-06-03 21:37:41 +0200
+Started PUT "/__web_console/repl_sessions/109db66825c24e10cce30eb150148e6a" for ::1 at 2019-06-03 21:37:42 +0200
+Started GET "/events" for ::1 at 2019-06-03 21:39:07 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/events"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-06-03 21:39:10 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-03 21:40:44 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"events"}, missing required keys: [:id]):
+    3: <p> Qui es-tu ? </p>
+    4: <%= link_to "Je suis Linguini", new_path, :class => "btn-medium" %>
+    5: 
+    6: <%= link_to "Je suis Chief Happiness", edit_path, :class => "btn-medium" %>
+  
+app/views/pages/home.html.erb:6:in `_app_views_pages_home_html_erb___2898203250210604529_70333899944500'
+Started GET "/" for ::1 at 2019-06-03 21:41:40 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"edit", :controller=>"events", :id=>nil}, missing required keys: [:id]):
+    3: <p> Qui es-tu ? </p>
+    4: <%= link_to "Je suis Linguini", new_path, :class => "btn-medium" %>
+    5: 
+    6: <%= link_to "Je suis Chief Happiness", edit_path(@event), :class => "btn-medium" %>
+  
+app/views/pages/home.html.erb:6:in `_app_views_pages_home_html_erb___2898203250210604529_70333926307680'
+Started GET "/" for ::1 at 2019-06-03 21:43:10 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 33ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-03 21:43:13 +0200
+Processing by EventsController#index as HTML
+Completed 406 Not Acceptable in 34ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (EventsController#index is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.3) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.3) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.3) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.3) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.3) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.3) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/events" for ::1 at 2019-06-03 21:43:46 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  Rendered events/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-03 21:45:47 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:4
+  Rendered events/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/events" for ::1 at 2019-06-03 21:46:00 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:4
+  Rendered events/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for ::1 at 2019-06-03 21:46:19 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:4
+  Rendered events/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for ::1 at 2019-06-03 21:47:12 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:4
+  Rendered events/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/events" for ::1 at 2019-06-03 21:51:51 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:4
+  Rendered events/index.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Symbol into Integer):
+    2: <h4> Choisi une fight pour choisir les cookers qui vont participer </h4>
+    3: 
+    4: <% @events.each do |event| %>
+    5: <%= link_to event.date, edit_path(@events[:id]), :class => "btn-medium" %>
+    6: 
+    7: <% end %>
+  
+app/views/events/index.html.erb:5:in `block in _app_views_events_index_html_erb__1900425633958905462_70333899537760'
+app/views/events/index.html.erb:4:in `_app_views_events_index_html_erb__1900425633958905462_70333899537760'
