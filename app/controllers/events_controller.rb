@@ -8,8 +8,9 @@ class EventsController < ApplicationController
 
   def create
     @event = Event.new(event_params)
-    @pastrie = pastrie.find(params[:pastrie_id])
-    raise
+    @pastries = Pastrie.where(event_id: @event.id)
+    @event.save
+    redirect_to root_path
   end
 
   def index
@@ -25,7 +26,9 @@ class EventsController < ApplicationController
   end
 
   def show
-    @event = event.find(params[:id])
+    @event = Event.find(params[:id])
+    # trouver les patisseries qui ont pour id, l'id enregistré lors de la selection
+    @pastries = Pastrie.find(params[:id])
   end
 
   private

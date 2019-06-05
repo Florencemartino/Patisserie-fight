@@ -1,6 +1,10 @@
-<p> Bienvenue ! </p>
-
-<p> Qui es-tu ? </p>
-<%= link_to "Je suis Linguini", new_path, :class => "btn-medium" %>
-
-<%= link_to "Je suis Chief Happiness", index_path, :class => "btn-medium" %>
+<div class=text-center text-color-blue>
+  <h2> Bienvenue ! </h2>
+</div>
+<div class=wrapper>
+  <div class="btn btn-warning wrap">
+    <%= link_to "Je suis Linguini", new_event_path, :class => "btn-medium btn-font-white" %></div>
+      </br>
+  <div class="btn btn-info wrap">
+    <%= link_to "Je suis Chief Happiness", events_path, :class => "btn-medium btn-font-white" %> </div>
+</div>

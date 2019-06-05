@@ -1,7 +1,8 @@
-<h2> Voici la liste des patisseries-fight organisées </h2>
-<h4> Choisi une fight pour choisir les cookers qui vont participer </h4>
-
-<% @events.each do |event| %>
-<%= link_to event.date, edit_path(@events[:id]), :class => "btn-medium" %>
-
-<% end %>
+<div class=text-center>
+  <h2> Voici la liste des patisseries-fight organisées </h2>
+</div>
+<div class=text-center>
+  <% @events.each do |event| %>
+    <%= link_to event.date, event_path(event.id), :class => "btn-sucess" %> </br>
+  <% end %>
+</div>

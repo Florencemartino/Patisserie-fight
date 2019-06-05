@@ -1,29 +1,11 @@
-<p> Bonjour Linguini, quelles patisseries veux-tu choisir ?</p>
+<h2 class=text-center> Bonjour Linguini, quelles patisseries veux-tu choisir ?</h2>
 
-<%= form_for(@event) do |f| %>
-  <div class="form-group">
-    <%= f.label :name %>
-    <%= f.text_field :name, class: 'form-control' %>
-  </div>
-
-  <%= f.submit class: 'btn btn-primary' %>
-<% end %>
-<!--
- <%# @pastries.each do |pastrie| %>
-  <div class="form-check">
-    <input class="form-check-input" type="checkbox" value="on" id="defaultCheck1">
-    <label class="form-check-label" for="defaultCheck1">
-      <%= pastrie.pastrie_name %>
-    </label>
-  </div>
-<%# end %>
-
-<button type="submit" class="btn btn-success">Valider ton choix</button> -->
-
-<!--  <div class="form-check">
-    <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
-    <label class="form-check-label" for="defaultCheck2">
-      Disabled checkbox
-    </label>
-  </div>
- -->
+<div class="container">
+  <%= simple_form_for [@event] do |f| %>
+    <% @pastries.each do |pastrie| %>
+    <%= f.check_box :pastrie_id %> <%= pastrie.pastrie_name %></br>
+    <% end %>
+  <%= f.input :date, { ampm: true, order: [:day, :month, :year] } %>
+  <%= f.submit "Valider", class: "btn btn-primary" %>
+  <% end %>
+</div>
