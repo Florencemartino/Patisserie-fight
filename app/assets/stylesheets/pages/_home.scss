@@ -11,6 +11,7 @@
 .wrapper {
   display: flex;
   justify-content: center;
+
 }
 
 .wrap {
@@ -22,7 +23,14 @@ h2 {
   color: #191970;
 }
 
-body
-{
-    background-image: url("https://pixabay.com/fr/photos/g%C3%A2teaux-cupcakes-fruits-dessert-1283821/");
+.margin-bottom {
+  margin-bottom: 5%;
+}
+
+.margin-date {
+  margin-top: 5% !important;
+}
+a {
+  color: black !important;
+  text-decoration: none !important;
 }

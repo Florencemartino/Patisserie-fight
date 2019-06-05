@@ -10827,3 +10827,2354 @@ Processing by EventsController#show as HTML
 Completed 200 OK in 22ms (Views: 18.9ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for ::1 at 2019-06-05 15:18:39 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 15:18:43 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 26ms (Views: 20.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:04:45 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 19:04:49 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.6ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:5
+  Rendered events/new.html.erb within layouts/application (50.9ms)
+Completed 200 OK in 69ms (Views: 62.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 19:05:58 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 59ms (Views: 57.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 19:06:06 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 19:06:11 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 53ms (Views: 50.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 19:07:09 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 53ms (Views: 50.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 19:07:26 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 19:07:36 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 19:08:01 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 54ms (Views: 52.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:08:10 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:08:12 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:10:09 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 52ms (Views: 49.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:10:26 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:12:59 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 50ms (Views: 48.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:13:20 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:13:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 49ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:15:33 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:19:09 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 51ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:19:26 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 53ms (Views: 52.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:19:50 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 45ms (Views: 43.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:20:56 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 65ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Users/florence/code/tests-techniques/Clothparency/app/assets/images/cakes.jpg" for ::1 at 2019-06-05 19:20:56 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/Users/florence/code/tests-techniques/Clothparency/app/assets/images/cakes.jpg"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-06-05 19:21:06 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Users/florence/code/tests-techniques/Clothparency/app/assets/images/cakes.png" for ::1 at 2019-06-05 19:21:06 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/Users/florence/code/tests-techniques/Clothparency/app/assets/images/cakes.png"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-06-05 19:21:25 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Users/florence/code/tests-techniques/Clothparency/app/assets/images/cakes.png" for ::1 at 2019-06-05 19:21:25 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/Users/florence/code/tests-techniques/Clothparency/app/assets/images/cakes.png"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-06-05 19:21:25 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:22:12 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 68ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:22:13 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 19:22:33 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 19:22:35 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 29ms (Views: 22.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 19:22:39 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 24ms (Views: 19.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 20:04:57 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.6ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:05:01 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 27ms (Views: 23.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:06:11 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 20:06:14 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.5ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 66ms (Views: 50.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/events" for ::1 at 2019-06-05 20:06:20 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"R0mQhOhE38OC1izz6wayYIqorcNc4mKUIZ+mQjOwvLoDa28yivn48W9G6Rgn+X+cohN0O+RCCyTmIUeJnGHzsA==", "event"=>{"pastrie_id"=>"0", "date(3i)"=>"10", "date(2i)"=>"6", "date(1i)"=>"2019", "date(4i)"=>"18", "date(5i)"=>"06"}, "commit"=>"Valider"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:12
+  [1m[36mEvent Create (2.0ms)[0m  [1m[32mINSERT INTO "events" ("date", "created_at", "updated_at", "pastrie_id") VALUES (?, ?, ?, ?)[0m  [["date", "2019-06-10 18:06:00"], ["created_at", "2019-06-05 18:06:20.947996"], ["updated_at", "2019-06-05 18:06:20.947996"], ["pastrie_id", 0]]
+  ↳ app/controllers/events_controller.rb:12
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:12
+Redirected to http://localhost:3000/
+Completed 302 Found in 12ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:06:20 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:06:22 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 23ms (Views: 19.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/4" for ::1 at 2019-06-05 20:06:28 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.3ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 18.0ms | ActiveRecord: 0.6ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateCookers (20190531202310)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "cookers" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190531202310_create_cookers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190531202310"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreatePastries (20190531202341)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "pastries" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "type" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190531202341_create_pastries.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190531202341"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateEvents (20190531202517)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "events" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "date" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190531202517_create_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190531202517"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddPastrieToCookers (20190531212904)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "cookers" ADD "pastrie" varchar[0m
+  ↳ db/migrate/20190531212904_add_pastrie_to_cookers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190531212904"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddCookerRefToEvents (20190603105809)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "events" ADD "cooker_id" integer[0m
+  ↳ db/migrate/20190603105809_add_cooker_ref_to_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_events_on_cooker_id" ON "events" ("cooker_id")[0m
+  ↳ db/migrate/20190603105809_add_cooker_ref_to_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603105809"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddPastrieRefToEvents (20190603105923)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.9ms)[0m  [1m[35mALTER TABLE "events" ADD "pastrie_id" integer[0m
+  ↳ db/migrate/20190603105923_add_pastrie_ref_to_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_events_on_pastrie_id" ON "events" ("pastrie_id")[0m
+  ↳ db/migrate/20190603105923_add_pastrie_ref_to_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603105923"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to ChangeColumnName (20190603111245)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "apastries" ("id" integer NOT NULL PRIMARY KEY, "pastrie_name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "apastries" ("id","pastrie_name","created_at","updated_at")
+                     SELECT "id","type","created_at","updated_at" FROM "pastries"[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "pastries"[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "pastries" ("id" integer NOT NULL PRIMARY KEY, "pastrie_name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "pastries" ("id","pastrie_name","created_at","updated_at")
+                     SELECT "id","pastrie_name","created_at","updated_at" FROM "apastries"[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "apastries"[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603111245"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddEventRefToCookers (20190603173112)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "cookers" ADD "event_id" integer[0m
+  ↳ db/migrate/20190603173112_add_event_ref_to_cookers.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_cookers_on_event_id" ON "cookers" ("event_id")[0m
+  ↳ db/migrate/20190603173112_add_event_ref_to_cookers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603173112"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddEventRefToPastries (20190603173124)
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "pastries" ADD "event_id" integer[0m
+  ↳ db/migrate/20190603173124_add_event_ref_to_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_pastries_on_event_id" ON "pastries" ("event_id")[0m
+  ↳ db/migrate/20190603173124_add_event_ref_to_pastries.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603173124"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to RemoveColumn (20190603173516)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aevents" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "cooker_id" integer DEFAULT NULL, "pastrie_id" integer DEFAULT NULL)[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_aevents_on_pastrie_id" ON "aevents" ("pastrie_id")[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_aevents_on_cooker_id" ON "aevents" ("cooker_id")[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "aevents" ("id","date","created_at","updated_at","cooker_id","pastrie_id")
+                     SELECT "id","date","created_at","updated_at","cooker_id","pastrie_id" FROM "events"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mDROP TABLE "events"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "events" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pastrie_id" integer DEFAULT NULL)[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_events_on_pastrie_id" ON "events" ("pastrie_id")[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "events" ("id","date","created_at","updated_at","pastrie_id")
+                     SELECT "id","date","created_at","updated_at","pastrie_id" FROM "aevents"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "aevents"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aevents" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pastrie_id" integer DEFAULT NULL)[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:4
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_aevents_on_pastrie_id" ON "aevents" ("pastrie_id")[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:4
+  [1m[35m (0.2ms)[0m  [1m[32mINSERT INTO "aevents" ("id","date","created_at","updated_at","pastrie_id")
+                     SELECT "id","date","created_at","updated_at","pastrie_id" FROM "events"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:4
+  [1m[35m (0.8ms)[0m  [1m[35mDROP TABLE "events"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:4
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "events" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:4
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "events" ("id","date","created_at","updated_at")
+                     SELECT "id","date","created_at","updated_at" FROM "aevents"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:4
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "aevents"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:4
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603173516"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to RemoveCookersFromEvents (20190603174243)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aevents" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603174243_remove_cookers_from_events.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "aevents" ("id","date","created_at","updated_at")
+                     SELECT "id","date","created_at","updated_at" FROM "events"[0m
+  ↳ db/migrate/20190603174243_remove_cookers_from_events.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "events"[0m
+  ↳ db/migrate/20190603174243_remove_cookers_from_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "events" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603174243_remove_cookers_from_events.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "events" ("id","date","created_at","updated_at")
+                     SELECT "id","date","created_at","updated_at" FROM "aevents"[0m
+  ↳ db/migrate/20190603174243_remove_cookers_from_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "aevents"[0m
+  ↳ db/migrate/20190603174243_remove_cookers_from_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603174243"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to RemovePastriesFromEvents (20190603174335)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aevents" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603174335_remove_pastries_from_events.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "aevents" ("id","date","created_at","updated_at")
+                     SELECT "id","date","created_at","updated_at" FROM "events"[0m
+  ↳ db/migrate/20190603174335_remove_pastries_from_events.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "events"[0m
+  ↳ db/migrate/20190603174335_remove_pastries_from_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "events" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603174335_remove_pastries_from_events.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "events" ("id","date","created_at","updated_at")
+                     SELECT "id","date","created_at","updated_at" FROM "aevents"[0m
+  ↳ db/migrate/20190603174335_remove_pastries_from_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "aevents"[0m
+  ↳ db/migrate/20190603174335_remove_pastries_from_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603174335"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to RemoveEventssFromCookers (20190604140741)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "acookers" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pastrie" varchar DEFAULT NULL, "event_id" integer DEFAULT NULL)[0m
+  ↳ db/migrate/20190604140741_remove_eventss_from_cookers.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_acookers_on_event_id" ON "acookers" ("event_id")[0m
+  ↳ db/migrate/20190604140741_remove_eventss_from_cookers.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "acookers" ("id","name","created_at","updated_at","pastrie","event_id")
+                     SELECT "id","name","created_at","updated_at","pastrie","event_id" FROM "cookers"[0m
+  ↳ db/migrate/20190604140741_remove_eventss_from_cookers.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "cookers"[0m
+  ↳ db/migrate/20190604140741_remove_eventss_from_cookers.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "cookers" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pastrie" varchar DEFAULT NULL)[0m
+  ↳ db/migrate/20190604140741_remove_eventss_from_cookers.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "cookers" ("id","name","created_at","updated_at","pastrie")
+                     SELECT "id","name","created_at","updated_at","pastrie" FROM "acookers"[0m
+  ↳ db/migrate/20190604140741_remove_eventss_from_cookers.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "acookers"[0m
+  ↳ db/migrate/20190604140741_remove_eventss_from_cookers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190604140741"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to RemoveEventsFromPastries (20190604140758)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "apastries" ("id" integer NOT NULL PRIMARY KEY, "pastrie_name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "event_id" integer DEFAULT NULL)[0m
+  ↳ db/migrate/20190604140758_remove_events_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_apastries_on_event_id" ON "apastries" ("event_id")[0m
+  ↳ db/migrate/20190604140758_remove_events_from_pastries.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "apastries" ("id","pastrie_name","created_at","updated_at","event_id")
+                     SELECT "id","pastrie_name","created_at","updated_at","event_id" FROM "pastries"[0m
+  ↳ db/migrate/20190604140758_remove_events_from_pastries.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "pastries"[0m
+  ↳ db/migrate/20190604140758_remove_events_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "pastries" ("id" integer NOT NULL PRIMARY KEY, "pastrie_name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190604140758_remove_events_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "pastries" ("id","pastrie_name","created_at","updated_at")
+                     SELECT "id","pastrie_name","created_at","updated_at" FROM "apastries"[0m
+  ↳ db/migrate/20190604140758_remove_events_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "apastries"[0m
+  ↳ db/migrate/20190604140758_remove_events_from_pastries.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190604140758"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to RemoveEventsFromCookers (20190604140813)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "acookers" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pastrie" varchar DEFAULT NULL)[0m
+  ↳ db/migrate/20190604140813_remove_events_from_cookers.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "acookers" ("id","name","created_at","updated_at","pastrie")
+                     SELECT "id","name","created_at","updated_at","pastrie" FROM "cookers"[0m
+  ↳ db/migrate/20190604140813_remove_events_from_cookers.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "cookers"[0m
+  ↳ db/migrate/20190604140813_remove_events_from_cookers.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "cookers" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pastrie" varchar DEFAULT NULL)[0m
+  ↳ db/migrate/20190604140813_remove_events_from_cookers.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "cookers" ("id","name","created_at","updated_at","pastrie")
+                     SELECT "id","name","created_at","updated_at","pastrie" FROM "acookers"[0m
+  ↳ db/migrate/20190604140813_remove_events_from_cookers.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "acookers"[0m
+  ↳ db/migrate/20190604140813_remove_events_from_cookers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190604140813"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddEventToPastries (20190604154723)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "pastries" ADD "event_id" integer[0m
+  ↳ db/migrate/20190604154723_add_event_to_pastries.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_pastries_on_event_id" ON "pastries" ("event_id")[0m
+  ↳ db/migrate/20190604154723_add_event_to_pastries.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190604154723"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to RemoveEventFromPastries (20190605110118)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "apastries" ("id" integer NOT NULL PRIMARY KEY, "pastrie_name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "event_id" integer DEFAULT NULL)[0m
+  ↳ db/migrate/20190605110118_remove_event_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_apastries_on_event_id" ON "apastries" ("event_id")[0m
+  ↳ db/migrate/20190605110118_remove_event_from_pastries.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "apastries" ("id","pastrie_name","created_at","updated_at","event_id")
+                     SELECT "id","pastrie_name","created_at","updated_at","event_id" FROM "pastries"[0m
+  ↳ db/migrate/20190605110118_remove_event_from_pastries.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "pastries"[0m
+  ↳ db/migrate/20190605110118_remove_event_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "pastries" ("id" integer NOT NULL PRIMARY KEY, "pastrie_name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190605110118_remove_event_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "pastries" ("id","pastrie_name","created_at","updated_at")
+                     SELECT "id","pastrie_name","created_at","updated_at" FROM "apastries"[0m
+  ↳ db/migrate/20190605110118_remove_event_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "apastries"[0m
+  ↳ db/migrate/20190605110118_remove_event_from_pastries.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190605110118"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddPastrieToEvents (20190605110416)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "events" ADD "pastrie_id" integer[0m
+  ↳ db/migrate/20190605110416_add_pastrie_to_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_events_on_pastrie_id" ON "events" ("pastrie_id")[0m
+  ↳ db/migrate/20190605110416_add_pastrie_to_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190605110416"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-06-05 18:07:06.004624"], ["updated_at", "2019-06-05 18:07:06.004624"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Started GET "/" for ::1 at 2019-06-05 20:07:08 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:07:09 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 26ms (Views: 20.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:07:10 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 17ms (Views: 15.7ms | ActiveRecord: 0.2ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mCooker Load (0.1ms)[0m  [1m[34mSELECT "cookers".* FROM "cookers"[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ db/seeds.rb:13
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mPastrie Create (0.4ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Financier"], ["created_at", "2019-06-05 18:07:21.945503"], ["updated_at", "2019-06-05 18:07:21.945503"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mPastrie Create (0.3ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Cookies"], ["created_at", "2019-06-05 18:07:21.948207"], ["updated_at", "2019-06-05 18:07:21.948207"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mPastrie Create (0.4ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Cornes de Gazelle"], ["created_at", "2019-06-05 18:07:21.950388"], ["updated_at", "2019-06-05 18:07:21.950388"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Churros"], ["created_at", "2019-06-05 18:07:21.952635"], ["updated_at", "2019-06-05 18:07:21.952635"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Flan"], ["created_at", "2019-06-05 18:07:21.954498"], ["updated_at", "2019-06-05 18:07:21.954498"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[36mPastrie Create (0.3ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Fruits"], ["created_at", "2019-06-05 18:07:21.956257"], ["updated_at", "2019-06-05 18:07:21.956257"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" ORDER BY "pastries"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ db/seeds.rb:26
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" ORDER BY "pastries"."id" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 1], ["OFFSET", 1]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[36mEvent Create (0.4ms)[0m  [1m[32mINSERT INTO "events" ("date", "created_at", "updated_at", "pastrie_id") VALUES (?, ?, ?, ?)[0m  [["date", "2019-06-05 18:07:21.959752"], ["created_at", "2019-06-05 18:07:21.970277"], ["updated_at", "2019-06-05 18:07:21.970277"], ["pastrie_id", 2]]
+  ↳ db/seeds.rb:26
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[36mCooker Create (0.4ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Antoine"], ["created_at", "2019-06-05 18:07:22.016787"], ["updated_at", "2019-06-05 18:07:22.016787"], ["pastrie", "Financier"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Maia"], ["created_at", "2019-06-05 18:07:22.019668"], ["updated_at", "2019-06-05 18:07:22.019668"], ["pastrie", "Financier"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Xavier"], ["created_at", "2019-06-05 18:07:22.022389"], ["updated_at", "2019-06-05 18:07:22.022389"], ["pastrie", "Cookies"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Matthieu"], ["created_at", "2019-06-05 18:07:22.024602"], ["updated_at", "2019-06-05 18:07:22.024602"], ["pastrie", "Cookies"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mCooker Create (0.2ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Rym"], ["created_at", "2019-06-05 18:07:22.027363"], ["updated_at", "2019-06-05 18:07:22.027363"], ["pastrie", "Corne de gazelle"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Aran"], ["created_at", "2019-06-05 18:07:22.029204"], ["updated_at", "2019-06-05 18:07:22.029204"], ["pastrie", "Churros"]]
+  ↳ db/seeds.rb:34
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[36mCooker Create (0.2ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Ines"], ["created_at", "2019-06-05 18:07:22.030984"], ["updated_at", "2019-06-05 18:07:22.030984"], ["pastrie", "Churros"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:36
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Marguerite"], ["created_at", "2019-06-05 18:07:22.032789"], ["updated_at", "2019-06-05 18:07:22.032789"], ["pastrie", "Flan"]]
+  ↳ db/seeds.rb:36
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[36mCooker Create (0.2ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Roxane"], ["created_at", "2019-06-05 18:07:22.034908"], ["updated_at", "2019-06-05 18:07:22.034908"], ["pastrie", "Flan"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[36mCooker Create (0.2ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Sophie"], ["created_at", "2019-06-05 18:07:22.037318"], ["updated_at", "2019-06-05 18:07:22.037318"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Ahmed"], ["created_at", "2019-06-05 18:07:22.039168"], ["updated_at", "2019-06-05 18:07:22.039168"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:40
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Maxime"], ["created_at", "2019-06-05 18:07:22.042103"], ["updated_at", "2019-06-05 18:07:22.042103"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:40
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "cookers"[0m
+  ↳ db/seeds.rb:44
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pastries"[0m
+  ↳ db/seeds.rb:44
+Started GET "/" for ::1 at 2019-06-05 20:07:26 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 20:07:28 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 44ms (Views: 33.9ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/events" for ::1 at 2019-06-05 20:07:35 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EC8IeHv4r25bWOfJV4fYA2NO7T37798LRTJCEtCE4b1UDffOGUWIXLbIIiKbeBX/S/U0xUNPtruCjKPZf1Wutw==", "event"=>{"pastrie_id"=>"0", "date(3i)"=>"10", "date(2i)"=>"6", "date(1i)"=>"2019", "date(4i)"=>"18", "date(5i)"=>"00"}, "commit"=>"Valider"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:12
+  [1m[36mEvent Create (0.5ms)[0m  [1m[32mINSERT INTO "events" ("date", "created_at", "updated_at", "pastrie_id") VALUES (?, ?, ?, ?)[0m  [["date", "2019-06-10 18:00:00"], ["created_at", "2019-06-05 18:07:35.953950"], ["updated_at", "2019-06-05 18:07:35.953950"], ["pastrie_id", 0]]
+  ↳ app/controllers/events_controller.rb:12
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:12
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:07:35 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:07:37 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/1" for ::1 at 2019-06-05 20:07:39 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 22ms (Views: 14.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/events/2" for ::1 at 2019-06-05 20:07:41 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 17.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:08:17 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:08:37 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:09:03 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:09:27 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:09:45 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:10:06 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:10:31 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:11:01 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 50ms (Views: 48.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:11:41 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:11:42 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:13:46 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 51ms (Views: 48.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:14:04 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 53ms (Views: 51.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:14:23 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 68ms (Views: 66.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:15:40 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 20:15:45 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 30ms (Views: 26.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:15:50 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events/1" for ::1 at 2019-06-05 20:15:52 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 32ms (Views: 24.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/2" for ::1 at 2019-06-05 20:15:57 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 23ms (Views: 19.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:16:27 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 20:16:30 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (1.3ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 32ms (Views: 29.1ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/events" for ::1 at 2019-06-05 20:16:50 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XA9XiOr4BeLfqJZTuOAM/SAu4uFpIWNVmAFOKSsWXAAYLag+iEUi0DI4U7h0H8EBCJU7GdGBCuVfv6/ihMcTCg==", "event"=>{"pastrie_id"=>"0", "date(3i)"=>"17", "date(2i)"=>"6", "date(1i)"=>"2019", "date(4i)"=>"14", "date(5i)"=>"00"}, "commit"=>"Valider"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:12
+  [1m[36mEvent Create (0.7ms)[0m  [1m[32mINSERT INTO "events" ("date", "created_at", "updated_at", "pastrie_id") VALUES (?, ?, ?, ?)[0m  [["date", "2019-06-17 14:00:00"], ["created_at", "2019-06-05 18:16:50.634897"], ["updated_at", "2019-06-05 18:16:50.634897"], ["pastrie_id", 0]]
+  ↳ app/controllers/events_controller.rb:12
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:12
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:16:50 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:16:55 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (33.6ms)
+Completed 200 OK in 51ms (Views: 49.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/events/3" for ::1 at 2019-06-05 20:16:57 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 27ms (Views: 24.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/3" for ::1 at 2019-06-05 20:18:24 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 14.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/3" for ::1 at 2019-06-05 20:18:30 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.3ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 14.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:18:39 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:18:41 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 24ms (Views: 21.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events/1" for ::1 at 2019-06-05 20:18:43 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 22.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:19:22 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 20:19:23 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 27ms (Views: 21.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:19:26 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 28ms (Views: 25.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:21:05 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 44ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 20:21:06 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 45ms (Views: 27.4ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/events" for ::1 at 2019-06-05 20:21:23 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FMU8iLzXR1zFoXfknfiG6LMetb7vVFK3kCvNN6Bv3dVQ58M+3mpgbigxsg9RB0sUm6VsRlf0OwdXlSz8D76S3w==", "event"=>{"pastrie_id"=>"0", "date(3i)"=>"22", "date(2i)"=>"6", "date(1i)"=>"2019", "date(4i)"=>"10", "date(5i)"=>"30"}, "commit"=>"Valider"}
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `pastrie' for #<EventsController:0x00007fb7c07eb420>):
+  
+app/controllers/events_controller.rb:11:in `create'
+Started POST "/events" for ::1 at 2019-06-05 20:21:36 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FMU8iLzXR1zFoXfknfiG6LMetb7vVFK3kCvNN6Bv3dVQ58M+3mpgbigxsg9RB0sUm6VsRlf0OwdXlSz8D76S3w==", "event"=>{"pastrie_id"=>"0", "date(3i)"=>"22", "date(2i)"=>"6", "date(1i)"=>"2019", "date(4i)"=>"10", "date(5i)"=>"30"}, "commit"=>"Valider"}
+Completed 404 Not Found in 17ms (ActiveRecord: 1.3ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Pastrie without an ID):
+  
+app/controllers/events_controller.rb:11:in `create'
+Started POST "/events" for ::1 at 2019-06-05 20:23:31 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FMU8iLzXR1zFoXfknfiG6LMetb7vVFK3kCvNN6Bv3dVQ58M+3mpgbigxsg9RB0sUm6VsRlf0OwdXlSz8D76S3w==", "event"=>{"pastrie_id"=>"0", "date(3i)"=>"22", "date(2i)"=>"6", "date(1i)"=>"2019", "date(4i)"=>"10", "date(5i)"=>"30"}, "commit"=>"Valider"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:11
+  [1m[36mEvent Create (0.5ms)[0m  [1m[32mINSERT INTO "events" ("date", "created_at", "updated_at", "pastrie_id") VALUES (?, ?, ?, ?)[0m  [["date", "2019-06-22 10:30:00"], ["created_at", "2019-06-05 18:23:31.977747"], ["updated_at", "2019-06-05 18:23:31.977747"], ["pastrie_id", 0]]
+  ↳ app/controllers/events_controller.rb:11
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:11
+Redirected to http://localhost:3000/
+Completed 302 Found in 13ms (ActiveRecord: 1.9ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:23:31 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:23:33 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 41ms (Views: 38.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/4" for ::1 at 2019-06-05 20:23:34 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:28
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:30
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 63ms (Views: 48.5ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/events/3" for ::1 at 2019-06-05 20:23:36 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:28
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:30
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 20.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:23:49 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 23ms (Views: 20.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/events/4" for ::1 at 2019-06-05 20:23:50 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"4"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/events_controller.rb:28:in `show'
+Started PUT "/__web_console/repl_sessions/db6db667e2f28a0289df473bde14f8f8" for ::1 at 2019-06-05 20:23:52 +0200
+Started PUT "/__web_console/repl_sessions/db6db667e2f28a0289df473bde14f8f8" for ::1 at 2019-06-05 20:23:53 +0200
+Started PUT "/__web_console/repl_sessions/db6db667e2f28a0289df473bde14f8f8" for ::1 at 2019-06-05 20:24:01 +0200
+Started PUT "/__web_console/repl_sessions/db6db667e2f28a0289df473bde14f8f8" for ::1 at 2019-06-05 20:24:02 +0200
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/events/4" for ::1 at 2019-06-05 20:27:55 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 41ms (Views: 28.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:27:58 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 24ms (Views: 21.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/1" for ::1 at 2019-06-05 20:27:59 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 26ms (Views: 22.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:31:13 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 20:31:14 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 39ms (Views: 21.3ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/events" for ::1 at 2019-06-05 20:31:22 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yPeZTWEgW1Y4fhic0X+JfbbBp+SKNrj8MsKbaG7wWI2M1Wb7A518ZNXu3XcdgESBnnp+HDKW0Uz1fHqjwSEXhw==", "event"=>{"pastrie_id"=>"1", "date(3i)"=>"6", "date(2i)"=>"6", "date(1i)"=>"2019", "date(4i)"=>"13", "date(5i)"=>"30"}, "commit"=>"Valider"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:12
+  [1m[36mEvent Create (0.5ms)[0m  [1m[32mINSERT INTO "events" ("date", "created_at", "updated_at", "pastrie_id") VALUES (?, ?, ?, ?)[0m  [["date", "2019-06-06 13:30:00"], ["created_at", "2019-06-05 18:31:22.340208"], ["updated_at", "2019-06-05 18:31:22.340208"], ["pastrie_id", 1]]
+  ↳ app/controllers/events_controller.rb:12
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:12
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:31:22 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:31:23 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.7ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 31ms (Views: 25.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/events/5" for ::1 at 2019-06-05 20:31:25 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 26ms (Views: 20.7ms | ActiveRecord: 0.5ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateCookers (20190531202310)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "cookers" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190531202310_create_cookers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190531202310"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreatePastries (20190531202341)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "pastries" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "type" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190531202341_create_pastries.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190531202341"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to CreateEvents (20190531202517)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "events" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "date" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190531202517_create_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190531202517"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddPastrieToCookers (20190531212904)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "cookers" ADD "pastrie" varchar[0m
+  ↳ db/migrate/20190531212904_add_pastrie_to_cookers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190531212904"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddCookerRefToEvents (20190603105809)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "events" ADD "cooker_id" integer[0m
+  ↳ db/migrate/20190603105809_add_cooker_ref_to_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_events_on_cooker_id" ON "events" ("cooker_id")[0m
+  ↳ db/migrate/20190603105809_add_cooker_ref_to_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603105809"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddPastrieRefToEvents (20190603105923)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "events" ADD "pastrie_id" integer[0m
+  ↳ db/migrate/20190603105923_add_pastrie_ref_to_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_events_on_pastrie_id" ON "events" ("pastrie_id")[0m
+  ↳ db/migrate/20190603105923_add_pastrie_ref_to_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603105923"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to ChangeColumnName (20190603111245)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "apastries" ("id" integer NOT NULL PRIMARY KEY, "pastrie_name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "apastries" ("id","pastrie_name","created_at","updated_at")
+                     SELECT "id","type","created_at","updated_at" FROM "pastries"[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "pastries"[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "pastries" ("id" integer NOT NULL PRIMARY KEY, "pastrie_name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "pastries" ("id","pastrie_name","created_at","updated_at")
+                     SELECT "id","pastrie_name","created_at","updated_at" FROM "apastries"[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "apastries"[0m
+  ↳ db/migrate/20190603111245_change_column_name.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603111245"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddEventRefToCookers (20190603173112)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "cookers" ADD "event_id" integer[0m
+  ↳ db/migrate/20190603173112_add_event_ref_to_cookers.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_cookers_on_event_id" ON "cookers" ("event_id")[0m
+  ↳ db/migrate/20190603173112_add_event_ref_to_cookers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603173112"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddEventRefToPastries (20190603173124)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "pastries" ADD "event_id" integer[0m
+  ↳ db/migrate/20190603173124_add_event_ref_to_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_pastries_on_event_id" ON "pastries" ("event_id")[0m
+  ↳ db/migrate/20190603173124_add_event_ref_to_pastries.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603173124"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to RemoveColumn (20190603173516)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aevents" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "cooker_id" integer DEFAULT NULL, "pastrie_id" integer DEFAULT NULL)[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_aevents_on_pastrie_id" ON "aevents" ("pastrie_id")[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_aevents_on_cooker_id" ON "aevents" ("cooker_id")[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "aevents" ("id","date","created_at","updated_at","cooker_id","pastrie_id")
+                     SELECT "id","date","created_at","updated_at","cooker_id","pastrie_id" FROM "events"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "events"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "events" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pastrie_id" integer DEFAULT NULL)[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "index_events_on_pastrie_id" ON "events" ("pastrie_id")[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "events" ("id","date","created_at","updated_at","pastrie_id")
+                     SELECT "id","date","created_at","updated_at","pastrie_id" FROM "aevents"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "aevents"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aevents" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pastrie_id" integer DEFAULT NULL)[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:4
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_aevents_on_pastrie_id" ON "aevents" ("pastrie_id")[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:4
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "aevents" ("id","date","created_at","updated_at","pastrie_id")
+                     SELECT "id","date","created_at","updated_at","pastrie_id" FROM "events"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:4
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "events"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:4
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "events" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:4
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "events" ("id","date","created_at","updated_at")
+                     SELECT "id","date","created_at","updated_at" FROM "aevents"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:4
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "aevents"[0m
+  ↳ db/migrate/20190603173516_remove_column.rb:4
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603173516"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to RemoveCookersFromEvents (20190603174243)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aevents" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603174243_remove_cookers_from_events.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "aevents" ("id","date","created_at","updated_at")
+                     SELECT "id","date","created_at","updated_at" FROM "events"[0m
+  ↳ db/migrate/20190603174243_remove_cookers_from_events.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "events"[0m
+  ↳ db/migrate/20190603174243_remove_cookers_from_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "events" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603174243_remove_cookers_from_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "events" ("id","date","created_at","updated_at")
+                     SELECT "id","date","created_at","updated_at" FROM "aevents"[0m
+  ↳ db/migrate/20190603174243_remove_cookers_from_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "aevents"[0m
+  ↳ db/migrate/20190603174243_remove_cookers_from_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603174243"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to RemovePastriesFromEvents (20190603174335)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "aevents" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603174335_remove_pastries_from_events.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "aevents" ("id","date","created_at","updated_at")
+                     SELECT "id","date","created_at","updated_at" FROM "events"[0m
+  ↳ db/migrate/20190603174335_remove_pastries_from_events.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "events"[0m
+  ↳ db/migrate/20190603174335_remove_pastries_from_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "events" ("id" integer NOT NULL PRIMARY KEY, "date" datetime DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190603174335_remove_pastries_from_events.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "events" ("id","date","created_at","updated_at")
+                     SELECT "id","date","created_at","updated_at" FROM "aevents"[0m
+  ↳ db/migrate/20190603174335_remove_pastries_from_events.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "aevents"[0m
+  ↳ db/migrate/20190603174335_remove_pastries_from_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190603174335"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to RemoveEventssFromCookers (20190604140741)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "acookers" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pastrie" varchar DEFAULT NULL, "event_id" integer DEFAULT NULL)[0m
+  ↳ db/migrate/20190604140741_remove_eventss_from_cookers.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_acookers_on_event_id" ON "acookers" ("event_id")[0m
+  ↳ db/migrate/20190604140741_remove_eventss_from_cookers.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "acookers" ("id","name","created_at","updated_at","pastrie","event_id")
+                     SELECT "id","name","created_at","updated_at","pastrie","event_id" FROM "cookers"[0m
+  ↳ db/migrate/20190604140741_remove_eventss_from_cookers.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mDROP TABLE "cookers"[0m
+  ↳ db/migrate/20190604140741_remove_eventss_from_cookers.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "cookers" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pastrie" varchar DEFAULT NULL)[0m
+  ↳ db/migrate/20190604140741_remove_eventss_from_cookers.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "cookers" ("id","name","created_at","updated_at","pastrie")
+                     SELECT "id","name","created_at","updated_at","pastrie" FROM "acookers"[0m
+  ↳ db/migrate/20190604140741_remove_eventss_from_cookers.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "acookers"[0m
+  ↳ db/migrate/20190604140741_remove_eventss_from_cookers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190604140741"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to RemoveEventsFromPastries (20190604140758)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "apastries" ("id" integer NOT NULL PRIMARY KEY, "pastrie_name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "event_id" integer DEFAULT NULL)[0m
+  ↳ db/migrate/20190604140758_remove_events_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_apastries_on_event_id" ON "apastries" ("event_id")[0m
+  ↳ db/migrate/20190604140758_remove_events_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[32mINSERT INTO "apastries" ("id","pastrie_name","created_at","updated_at","event_id")
+                     SELECT "id","pastrie_name","created_at","updated_at","event_id" FROM "pastries"[0m
+  ↳ db/migrate/20190604140758_remove_events_from_pastries.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "pastries"[0m
+  ↳ db/migrate/20190604140758_remove_events_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "pastries" ("id" integer NOT NULL PRIMARY KEY, "pastrie_name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190604140758_remove_events_from_pastries.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "pastries" ("id","pastrie_name","created_at","updated_at")
+                     SELECT "id","pastrie_name","created_at","updated_at" FROM "apastries"[0m
+  ↳ db/migrate/20190604140758_remove_events_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "apastries"[0m
+  ↳ db/migrate/20190604140758_remove_events_from_pastries.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190604140758"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to RemoveEventsFromCookers (20190604140813)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "acookers" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pastrie" varchar DEFAULT NULL)[0m
+  ↳ db/migrate/20190604140813_remove_events_from_cookers.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "acookers" ("id","name","created_at","updated_at","pastrie")
+                     SELECT "id","name","created_at","updated_at","pastrie" FROM "cookers"[0m
+  ↳ db/migrate/20190604140813_remove_events_from_cookers.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mDROP TABLE "cookers"[0m
+  ↳ db/migrate/20190604140813_remove_events_from_cookers.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "cookers" ("id" integer NOT NULL PRIMARY KEY, "name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "pastrie" varchar DEFAULT NULL)[0m
+  ↳ db/migrate/20190604140813_remove_events_from_cookers.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "cookers" ("id","name","created_at","updated_at","pastrie")
+                     SELECT "id","name","created_at","updated_at","pastrie" FROM "acookers"[0m
+  ↳ db/migrate/20190604140813_remove_events_from_cookers.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "acookers"[0m
+  ↳ db/migrate/20190604140813_remove_events_from_cookers.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190604140813"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddEventToPastries (20190604154723)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "pastries" ADD "event_id" integer[0m
+  ↳ db/migrate/20190604154723_add_event_to_pastries.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_pastries_on_event_id" ON "pastries" ("event_id")[0m
+  ↳ db/migrate/20190604154723_add_event_to_pastries.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190604154723"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to RemoveEventFromPastries (20190605110118)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TEMPORARY TABLE "apastries" ("id" integer NOT NULL PRIMARY KEY, "pastrie_name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "event_id" integer DEFAULT NULL)[0m
+  ↳ db/migrate/20190605110118_remove_event_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE  INDEX "tindex_apastries_on_event_id" ON "apastries" ("event_id")[0m
+  ↳ db/migrate/20190605110118_remove_event_from_pastries.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "apastries" ("id","pastrie_name","created_at","updated_at","event_id")
+                     SELECT "id","pastrie_name","created_at","updated_at","event_id" FROM "pastries"[0m
+  ↳ db/migrate/20190605110118_remove_event_from_pastries.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mDROP TABLE "pastries"[0m
+  ↳ db/migrate/20190605110118_remove_event_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "pastries" ("id" integer NOT NULL PRIMARY KEY, "pastrie_name" varchar DEFAULT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20190605110118_remove_event_from_pastries.rb:3
+  [1m[35m (0.0ms)[0m  [1m[32mINSERT INTO "pastries" ("id","pastrie_name","created_at","updated_at")
+                     SELECT "id","pastrie_name","created_at","updated_at" FROM "apastries"[0m
+  ↳ db/migrate/20190605110118_remove_event_from_pastries.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE "apastries"[0m
+  ↳ db/migrate/20190605110118_remove_event_from_pastries.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190605110118"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+Migrating to AddPastrieToEvents (20190605110416)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.5ms)[0m  [1m[35mALTER TABLE "events" ADD "pastrie_id" integer[0m
+  ↳ db/migrate/20190605110416_add_pastrie_to_events.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE  INDEX "index_events_on_pastrie_id" ON "events" ("pastrie_id")[0m
+  ↳ db/migrate/20190605110416_add_pastrie_to_events.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20190605110416"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-06-05 18:33:46.150230"], ["updated_at", "2019-06-05 18:33:46.150230"]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/rake-12.3.2/lib/rake/task.rb:273
+  [1m[36mCooker Load (0.1ms)[0m  [1m[34mSELECT "cookers".* FROM "cookers"[0m
+  ↳ db/seeds.rb:12
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ db/seeds.rb:13
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[36mPastrie Create (0.4ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Financier"], ["created_at", "2019-06-05 18:33:50.737814"], ["updated_at", "2019-06-05 18:33:50.737814"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[36mPastrie Create (0.3ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Cookies"], ["created_at", "2019-06-05 18:33:50.740701"], ["updated_at", "2019-06-05 18:33:50.740701"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Cornes de Gazelle"], ["created_at", "2019-06-05 18:33:50.743491"], ["updated_at", "2019-06-05 18:33:50.743491"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[36mPastrie Create (0.3ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Churros"], ["created_at", "2019-06-05 18:33:50.745965"], ["updated_at", "2019-06-05 18:33:50.745965"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[36mPastrie Create (0.3ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Flan"], ["created_at", "2019-06-05 18:33:50.748948"], ["updated_at", "2019-06-05 18:33:50.748948"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[36mPastrie Create (0.2ms)[0m  [1m[32mINSERT INTO "pastries" ("pastrie_name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["pastrie_name", "Fruits"], ["created_at", "2019-06-05 18:33:50.751014"], ["updated_at", "2019-06-05 18:33:50.751014"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:23
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" ORDER BY "pastries"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ db/seeds.rb:26
+  [1m[36mPastrie Load (0.3ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" ORDER BY "pastries"."id" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 1], ["OFFSET", 1]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("date", "created_at", "updated_at", "pastrie_id") VALUES (?, ?, ?, ?)[0m  [["date", "2019-06-05 18:33:50.752652"], ["created_at", "2019-06-05 18:33:50.762778"], ["updated_at", "2019-06-05 18:33:50.762778"], ["pastrie_id", 2]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[36mCooker Create (0.2ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Antoine"], ["created_at", "2019-06-05 18:33:50.768655"], ["updated_at", "2019-06-05 18:33:50.768655"], ["pastrie", "Financier"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Maia"], ["created_at", "2019-06-05 18:33:50.772072"], ["updated_at", "2019-06-05 18:33:50.772072"], ["pastrie", "Financier"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[36mCooker Create (0.6ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Xavier"], ["created_at", "2019-06-05 18:33:50.774620"], ["updated_at", "2019-06-05 18:33:50.774620"], ["pastrie", "Cookies"]]
+  ↳ db/seeds.rb:31
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:31
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Matthieu"], ["created_at", "2019-06-05 18:33:50.779051"], ["updated_at", "2019-06-05 18:33:50.779051"], ["pastrie", "Cookies"]]
+  ↳ db/seeds.rb:32
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:32
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Rym"], ["created_at", "2019-06-05 18:33:50.782403"], ["updated_at", "2019-06-05 18:33:50.782403"], ["pastrie", "Corne de gazelle"]]
+  ↳ db/seeds.rb:33
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:33
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Aran"], ["created_at", "2019-06-05 18:33:50.785720"], ["updated_at", "2019-06-05 18:33:50.785720"], ["pastrie", "Churros"]]
+  ↳ db/seeds.rb:34
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:34
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[36mCooker Create (0.2ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Ines"], ["created_at", "2019-06-05 18:33:50.788788"], ["updated_at", "2019-06-05 18:33:50.788788"], ["pastrie", "Churros"]]
+  ↳ db/seeds.rb:35
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:35
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:36
+  [1m[36mCooker Create (0.2ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Marguerite"], ["created_at", "2019-06-05 18:33:50.791150"], ["updated_at", "2019-06-05 18:33:50.791150"], ["pastrie", "Flan"]]
+  ↳ db/seeds.rb:36
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:36
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Roxane"], ["created_at", "2019-06-05 18:33:50.794115"], ["updated_at", "2019-06-05 18:33:50.794115"], ["pastrie", "Flan"]]
+  ↳ db/seeds.rb:37
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:37
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Sophie"], ["created_at", "2019-06-05 18:33:50.796563"], ["updated_at", "2019-06-05 18:33:50.796563"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[36mCooker Create (0.3ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Ahmed"], ["created_at", "2019-06-05 18:33:50.799241"], ["updated_at", "2019-06-05 18:33:50.799241"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:39
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:39
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/seeds.rb:40
+  [1m[36mCooker Create (0.4ms)[0m  [1m[32mINSERT INTO "cookers" ("name", "created_at", "updated_at", "pastrie") VALUES (?, ?, ?, ?)[0m  [["name", "Maxime"], ["created_at", "2019-06-05 18:33:50.802396"], ["updated_at", "2019-06-05 18:33:50.802396"], ["pastrie", "Fruits"]]
+  ↳ db/seeds.rb:40
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "cookers"[0m
+  ↳ db/seeds.rb:44
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "pastries"[0m
+  ↳ db/seeds.rb:44
+Started GET "/" for ::1 at 2019-06-05 20:33:54 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 20:33:56 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 40ms (Views: 26.8ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/events" for ::1 at 2019-06-05 20:34:06 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bvCPHnHtLxs+AlFFsShxLeZtyIW8lQMByenvcbK204Iq0nCoE1AIKdOSlK5917zRztYRfQQ1arEOVw66HWeciA==", "event"=>{"pastrie_id"=>"0", "date(3i)"=>"10", "date(2i)"=>"6", "date(1i)"=>"2019", "date(4i)"=>"13", "date(5i)"=>"30"}, "commit"=>"Valider"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:12
+  [1m[36mEvent Create (0.4ms)[0m  [1m[32mINSERT INTO "events" ("date", "created_at", "updated_at", "pastrie_id") VALUES (?, ?, ?, ?)[0m  [["date", "2019-06-10 13:30:00"], ["created_at", "2019-06-05 18:34:06.826530"], ["updated_at", "2019-06-05 18:34:06.826530"], ["pastrie_id", 0]]
+  ↳ app/controllers/events_controller.rb:12
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:12
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:34:06 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:34:07 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 26ms (Views: 21.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/2" for ::1 at 2019-06-05 20:34:08 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 30ms (Views: 23.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/events/2" for ::1 at 2019-06-05 20:34:24 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.4ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error ():
+    2:   <h2>Voici la liste des participants :</h2>
+    3: </div>
+    4: <div class=text-center>
+    5:   <% raise %>
+    6:   <%= @event.date.strftime("journée du %d/%m/%Y") %>
+    7: </div>
+  
+app/views/events/show.html.erb:5:in `_app_views_events_show_html_erb___674434246915472733_70213613799500'
+Started PUT "/__web_console/repl_sessions/dc82d2ed69c2706b22127520316801b0" for ::1 at 2019-06-05 20:34:28 +0200
+Started PUT "/__web_console/repl_sessions/dc82d2ed69c2706b22127520316801b0" for ::1 at 2019-06-05 20:34:28 +0200
+Started GET "/" for ::1 at 2019-06-05 20:35:43 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 20:35:47 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 26ms (Views: 22.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 20:36:15 +0200
+Processing by EventsController#new as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.4ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/events_controller.rb:7:in `new'
+Started PUT "/__web_console/repl_sessions/926839a2d150ec88ff83ffb756e1b9dc" for ::1 at 2019-06-05 20:36:21 +0200
+Started PUT "/__web_console/repl_sessions/926839a2d150ec88ff83ffb756e1b9dc" for ::1 at 2019-06-05 20:36:26 +0200
+Started GET "/events/new" for ::1 at 2019-06-05 20:36:59 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 29ms (Views: 18.6ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/events" for ::1 at 2019-06-05 20:37:09 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aJ/+wL1LhrCoX5Ua+EicPhsBbh3+fROwV8Int0IMrsXiV+cpAoKTonXoSCBCCd5lV2Nrun6fvIgut4OJUg8aOA==", "event"=>{"pastrie_id"=>"0", "date(3i)"=>"17", "date(2i)"=>"6", "date(1i)"=>"2019", "date(4i)"=>"10", "date(5i)"=>"00"}, "commit"=>"Valider"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:12
+  [1m[36mEvent Create (0.3ms)[0m  [1m[32mINSERT INTO "events" ("date", "created_at", "updated_at", "pastrie_id") VALUES (?, ?, ?, ?)[0m  [["date", "2019-06-17 10:00:00"], ["created_at", "2019-06-05 18:37:09.864357"], ["updated_at", "2019-06-05 18:37:09.864357"], ["pastrie_id", 0]]
+  ↳ app/controllers/events_controller.rb:12
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:12
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:37:09 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:37:10 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 31ms (Views: 29.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/3" for ::1 at 2019-06-05 20:37:11 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error ():
+    2:   <h2>Voici la liste des participants :</h2>
+    3: </div>
+    4: <div class=text-center>
+    5:   <% raise %>
+    6:   <%= @event.date.strftime("journée du %d/%m/%Y") %>
+    7: </div>
+  
+app/views/events/show.html.erb:5:in `_app_views_events_show_html_erb___674434246915472733_70213613961700'
+Started PUT "/__web_console/repl_sessions/2d927794038702edf00b1b3aa8420e47" for ::1 at 2019-06-05 20:37:16 +0200
+Started PUT "/__web_console/repl_sessions/2d927794038702edf00b1b3aa8420e47" for ::1 at 2019-06-05 20:37:16 +0200
+Started GET "/events/3" for ::1 at 2019-06-05 20:39:34 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 33ms (Views: 12.4ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-05 20:39:37 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-05 20:39:38 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/events/new.html.erb:6
+  Rendered events/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for ::1 at 2019-06-05 20:39:40 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:5
+  Rendered events/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 27ms (Views: 25.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/1" for ::1 at 2019-06-05 20:39:41 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 23ms (Views: 18.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/events/1" for ::1 at 2019-06-05 20:40:40 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:31
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (4.8ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<Pastrie:0x00007fb7c136d168>):
+     6: </div>
+     7: 
+     8: 
+     9: <% @pastries.each do |pastrie| %>
+    10: <%= pastrie.pastrie_name %>
+    11: <% end %>
+  
+app/views/events/show.html.erb:9:in `_app_views_events_show_html_erb___674434246915472733_70213598688260'
+Started GET "/events/1" for ::1 at 2019-06-05 20:41:17 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  Rendering events/show.html.erb within layouts/application
+  [1m[36mPastrie Load (0.4ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries" WHERE "pastries"."event_id" IS NULL[0m
+  ↳ app/views/events/show.html.erb:9
+  Rendered events/show.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 1.5ms)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such column: pastries.event_id: SELECT "pastries".* FROM "pastries" WHERE "pastries"."event_id" IS NULL):
+     6: </div>
+     7: 
+     8: 
+     9: <% @pastries.each do |pastrie| %>
+    10: <%= pastrie.pastrie_name %>
+    11: <% end %>
+  
+app/views/events/show.html.erb:9:in `_app_views_events_show_html_erb___674434246915472733_70213591649160'
+Started GET "/events/1" for ::1 at 2019-06-05 20:41:50 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.5ms)
+
+
+  
+NameError (uninitialized constant EventsController::Whishlist):
+  
+app/controllers/events_controller.rb:31:in `show'
+Started GET "/events/1" for ::1 at 2019-06-05 20:42:09 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  Rendering events/show.html.erb within layouts/application
+  [1m[36mPastrie Load (0.4ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries" WHERE "pastries"."event_id" = ?[0m  [["event_id", 1]]
+  ↳ app/views/events/show.html.erb:9
+  Rendered events/show.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 1.4ms)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such column: pastries.event_id: SELECT "pastries".* FROM "pastries" WHERE "pastries"."event_id" = ?):
+     6: </div>
+     7: 
+     8: 
+     9: <% @pastries.each do |pastrie| %>
+    10: <%= pastrie.pastrie_name %>
+    11: <% end %>
+  
+app/views/events/show.html.erb:9:in `_app_views_events_show_html_erb___674434246915472733_70213562906860'
+Started GET "/events/1" for ::1 at 2019-06-05 20:43:06 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  Rendering events/show.html.erb within layouts/application
+  [1m[36mPastrie Load (0.5ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries" WHERE "pastries"."event_id" = ?[0m  [["event_id", 1]]
+  ↳ app/views/events/show.html.erb:9
+  Rendered events/show.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (SQLite3::SQLException: no such column: pastries.event_id: SELECT "pastries".* FROM "pastries" WHERE "pastries"."event_id" = ?):
+     6: </div>
+     7: 
+     8: 
+     9: <% @pastries.each do |pastrie| %>
+    10: <%= pastrie.pastrie_name %>
+    11: <% end %>
+  
+app/views/events/show.html.erb:9:in `_app_views_events_show_html_erb___674434246915472733_70213562838360'
+Started GET "/events/1" for ::1 at 2019-06-05 20:43:39 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (3.8ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `event' for nil:NilClass):
+     6: </div>
+     7: 
+     8: 
+     9: <% @pastries.event.each do |pastrie| %>
+    10: <%= pastrie.pastrie_name %>
+    11: <% end %>
+  
+app/views/events/show.html.erb:9:in `_app_views_events_show_html_erb___674434246915472733_70213591466660'
+Started GET "/events/1" for ::1 at 2019-06-05 20:43:53 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (6.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant Event::Pastry):
+     6: </div>
+     7: 
+     8: 
+     9: <% @event.pastries.each do |pastrie| %>
+    10: <%= pastrie.pastrie_name %>
+    11: <% end %>
+  
+app/views/events/show.html.erb:9:in `_app_views_events_show_html_erb___674434246915472733_70213573151060'
+Started GET "/events/1" for ::1 at 2019-06-05 20:44:53 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (4.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant Event::Pastry):
+     6: </div>
+     7: 
+     8: 
+     9: <% @event.pastries.each do |pastrie| %>
+    10: <%= pastrie.pastrie_name %>
+    11: <% end %>
+  
+app/views/events/show.html.erb:9:in `_app_views_events_show_html_erb___674434246915472733_70213562064460'
+Started GET "/events/1" for ::1 at 2019-06-05 20:45:16 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+SyntaxError (/Users/florence/code/tests-techniques/Clothparency/app/views/events/show.html.erb:12: syntax error, unexpected '\n', expecting do (for lambda) or tLAMBEG
+/Users/florence/code/tests-techniques/Clothparency/app/views/events/show.html.erb:17: unterminated string meets end of file
+          end
+              ^
+/Users/florence/code/tests-techniques/Clothparency/app/views/events/show.html.erb:17: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/events/show.html.erb:12: syntax error, unexpected '\n', expecting do (for lambda) or tLAMBEG
+app/views/events/show.html.erb:17: unterminated string meets end of file
+app/views/events/show.html.erb:17: syntax error, unexpected end-of-input, expecting end
+Started GET "/events/1" for ::1 at 2019-06-05 20:45:24 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant Event::Pastry):
+     6: </div>
+     7: 
+     8: 
+     9: <!-- # <% @event.pastries.each do |pastrie| %>
+    10: # <%= pastrie.pastrie_name %>
+    11: # <% end %>
+    12:  -->
+  
+app/views/events/show.html.erb:9:in `_app_views_events_show_html_erb___674434246915472733_70213558731640'
+Started GET "/events/1" for ::1 at 2019-06-05 20:45:29 +0200
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:29
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 28ms (Views: 26.0ms | ActiveRecord: 0.1ms)
+
+
