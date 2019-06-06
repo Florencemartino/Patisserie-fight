@@ -28,7 +28,7 @@ class EventsController < ApplicationController
   def show
     @event = Event.find(params[:id])
     # trouver les patisseries qui ont pour id, l'id enregistré lors de la selection
-    @pastrie = Pastrie.where(event_id: params[:event_id])
+    @pastries = Pastrie.where(event_id: params[:event_id])
   end
 
   private
