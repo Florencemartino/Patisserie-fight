@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
   root to: 'pages#home'
   resources :events do
-    resources :fights, only: [:new, :show]
+    resources :fights, only: [:new, :show, :create]
   end
 
   resources :fights, only: [:index]
