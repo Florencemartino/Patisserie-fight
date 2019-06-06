@@ -19,13 +19,13 @@ class FightsController < ApplicationController
   end
 
   def index
-    @fights = Fight.where(event_id: 1)
+    @fights = Fight.all
   end
 
   private
 
   def fight_params
-    params.require(:fight).permit(:pastrie_id, :cooker_id)
+    params.require(:fight).permit(:event_id, :pastrie_id, :cooker_id)
   end
 
 end

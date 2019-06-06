@@ -4,9 +4,10 @@
 <div class="container margin-bottom">
   <%= simple_form_for [@event, @fight] do |f| %>
     <% @pastries.each do |pastrie| %>
-    <%= f.check_box :pastrie_id %>
-    <%= pastrie.pastrie_name %></br>
-    <% end %></br>
+      <%= f.label :pastrie_id do %>
+      <%= f.check_box :pastrie_id, as: :boolean, checked_value: true, unchecked_value: false %> <span class="labelText"><%= pastrie.pastrie_name%></span>
+      <% end %></br>
+    <% end %>
   <%= f.submit "Valider", class: "btn btn-primary" %>
   <% end %>
 </div>

@@ -18117,3 +18117,619 @@ Processing by FightsController#index as HTML
 Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/fights" for ::1 at 2019-06-06 18:22:12 +0200
+Processing by FightsController#index as HTML
+  Rendering fights/index.html.erb within layouts/application
+  [1m[36mFight Load (0.2ms)[0m  [1m[34mSELECT "fights".* FROM "fights"[0m
+  ↳ app/views/fights/index.html.erb:6
+  Rendered fights/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 24ms (Views: 19.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/fights" for ::1 at 2019-06-06 18:22:12 +0200
+Processing by FightsController#index as HTML
+  Rendering fights/index.html.erb within layouts/application
+  [1m[36mFight Load (0.2ms)[0m  [1m[34mSELECT "fights".* FROM "fights"[0m
+  ↳ app/views/fights/index.html.erb:6
+  Rendered fights/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 18:23:37 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for ::1 at 2019-06-06 18:23:38 +0200
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 37ms (Views: 25.9ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/events" for ::1 at 2019-06-06 18:23:47 +0200
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tcJGOnnbM7lNEMsTRqaEXR+uiD0cDCM5OqEHPMoJ8iTx4LmMG2YUi6CADviKWUmhNxVRxaSsSon9H+b3Zdi9Lg==", "event"=>{"date(3i)"=>"17", "date(2i)"=>"6", "date(1i)"=>"2019", "date(4i)"=>"13", "date(5i)"=>"00"}, "commit"=>"Valider"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:9
+  [1m[36mEvent Create (0.7ms)[0m  [1m[32mINSERT INTO "events" ("date", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["date", "2019-06-17 13:00:00"], ["created_at", "2019-06-06 16:23:47.611743"], ["updated_at", "2019-06-06 16:23:47.611743"]]
+  ↳ app/controllers/events_controller.rb:9
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 3.2ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 18:23:47 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-06 18:23:48 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:6
+  Rendered events/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/4/fights/new" for ::1 at 2019-06-06 18:23:49 +0200
+  
+SyntaxError (/Users/florence/code/tests-techniques/Clothparency/app/controllers/fights_controller.rb:28: syntax error, unexpected ',', expecting =>
+...vent_id: event_id, :pastrie_id, :cooker_id)
+...                              ^):
+  
+app/controllers/fights_controller.rb:28: syntax error, unexpected ',', expecting =>
+Started GET "/events/4/fights/new" for ::1 at 2019-06-06 18:24:15 +0200
+  
+SyntaxError (/Users/florence/code/tests-techniques/Clothparency/app/controllers/fights_controller.rb:28: syntax error, unexpected ','
+...quire(:fight).permit(event_id:, :pastrie_id, :cooker_id)
+...                              ^):
+  
+app/controllers/fights_controller.rb:28: syntax error, unexpected ','
+Started GET "/events/4/fights/new" for ::1 at 2019-06-06 18:24:30 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"4"}
+  [1m[36mEvent Load (0.6ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 43ms (Views: 15.0ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/events/4/fights" for ::1 at 2019-06-06 18:24:33 +0200
+Processing by FightsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XN4I/q2FUGuUHYgfaLPshvmqEsxHGe10QEKSRY+EJlPWFhEXEkxFeUmqVSXS8q7dtcgXa8f7Qkw5NzZ7n4eSrg==", "fight"=>{"pastrie_id"=>"0"}, "commit"=>"Valider", "event_id"=>"4"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:11
+  [1m[36mCACHE Event Load (0.0ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/fights_controller.rb:13
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/fights_controller.rb:13
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 18:24:33 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 15ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fights" for ::1 at 2019-06-06 18:24:34 +0200
+Processing by FightsController#index as HTML
+  Rendering fights/index.html.erb within layouts/application
+  [1m[36mFight Load (0.2ms)[0m  [1m[34mSELECT "fights".* FROM "fights"[0m
+  ↳ app/views/fights/index.html.erb:6
+  Rendered fights/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 17.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for ::1 at 2019-06-06 18:24:41 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:6
+  Rendered events/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 20ms (Views: 18.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/events/4/fights/new" for ::1 at 2019-06-06 18:24:43 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"4"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/events/4/fights" for ::1 at 2019-06-06 18:24:47 +0200
+Processing by FightsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sYe+uDEg8YtTPTGz3f3/431OJq7pqOxkvBR1R+qoyU5iacoYB/ZaOoN7RrTSpduLf6zNc2esWXRmpy6V0vnS/g==", "fight"=>{"pastrie_id"=>"0"}, "commit"=>"Valider", "event_id"=>"4"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:11
+  [1m[36mCACHE Event Load (0.0ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/fights_controller.rb:13
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/fights_controller.rb:13
+Redirected to http://localhost:3000/
+Completed 302 Found in 6ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 18:24:47 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fights" for ::1 at 2019-06-06 18:24:48 +0200
+Processing by FightsController#index as HTML
+  Rendering fights/index.html.erb within layouts/application
+  [1m[36mFight Load (0.2ms)[0m  [1m[34mSELECT "fights".* FROM "fights"[0m
+  ↳ app/views/fights/index.html.erb:6
+  Rendered fights/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/fights" for ::1 at 2019-06-06 18:24:58 +0200
+Processing by FightsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/fights_controller.rb:22:in `index'
+Started PUT "/__web_console/repl_sessions/05e321eb783c8c1e325a0c0392912b64" for ::1 at 2019-06-06 18:25:02 +0200
+Started PUT "/__web_console/repl_sessions/05e321eb783c8c1e325a0c0392912b64" for ::1 at 2019-06-06 18:25:04 +0200
+Started PUT "/__web_console/repl_sessions/05e321eb783c8c1e325a0c0392912b64" for ::1 at 2019-06-06 18:25:04 +0200
+  [1m[36mFight Load (0.2ms)[0m  [1m[34mSELECT  "fights".* FROM "fights" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/fights" for ::1 at 2019-06-06 18:31:51 +0200
+Processing by FightsController#index as HTML
+  Rendering fights/index.html.erb within layouts/application
+  [1m[36mFight Load (0.2ms)[0m  [1m[34mSELECT "fights".* FROM "fights"[0m
+  ↳ app/views/fights/index.html.erb:6
+  Rendered fights/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 18ms (Views: 15.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 18:31:54 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-06 18:31:55 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:6
+  Rendered events/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 28ms (Views: 21.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:31:56 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.5ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 68ms (Views: 60.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:32:09 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 24ms (Views: 22.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:32:31 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (179.5ms)
+Completed 500 Internal Server Error in 184ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `event' for #<#<Class:0x00007fb7bcb27778>:0x00007fb7c235f530>
+Did you mean?  @event):
+    4: <div class="container margin-bottom">
+    5:   <%= simple_form_for [@event, @fight] do |f| %>
+    6:     <% @pastries.each do |pastrie| %>
+    7:     <%= f.check_box :pastrie_id, label: event.pastrie.pastrie_name %>
+    8:     <% end %></br>
+    9:   <%= f.submit "Valider", class: "btn btn-primary" %>
+   10:   <% end %>
+  
+app/views/fights/new.html.erb:7:in `block (2 levels) in _app_views_fights_new_html_erb___4031353063516881634_70213607008060'
+app/views/fights/new.html.erb:6:in `block in _app_views_fights_new_html_erb___4031353063516881634_70213607008060'
+app/views/fights/new.html.erb:5:in `_app_views_fights_new_html_erb___4031353063516881634_70213607008060'
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:32:53 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  Rendered fights/new.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (Could not find the source association(s) "pastry" or :pastries in model Fight. Try 'has_many :pastries, :through => :fights, :source => <name>'. Is it one of pastrie, event, or cooker?):
+    3: </div>
+    4: <div class="container margin-bottom">
+    5:   <%= simple_form_for [@event, @fight] do |f| %>
+    6:     <% @event.pastries.each do |pastrie| %>
+    7:     <%= f.check_box :pastrie_id, label: pastrie.pastrie_name %>
+    8:     <% end %></br>
+    9:   <%= f.submit "Valider", class: "btn btn-primary" %>
+  
+app/views/fights/new.html.erb:6:in `block in _app_views_fights_new_html_erb___4031353063516881634_70213622462360'
+app/views/fights/new.html.erb:5:in `_app_views_fights_new_html_erb___4031353063516881634_70213622462360'
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:33:32 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  Rendered fights/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (Could not find the source association(s) "pastry" or :pastries in model Fight. Try 'has_many :pastries, :through => :fights, :source => <name>'. Is it one of pastrie, event, or cooker?):
+    3: </div>
+    4: <div class="container margin-bottom">
+    5:   <%= simple_form_for [@event, @fight] do |f| %>
+    6:     <% @event.pastries.each do |pastrie| %>
+    7:     <%= f.check_box :pastrie_id, label: "patisserie" %>
+    8:     <% end %></br>
+    9:   <%= f.submit "Valider", class: "btn btn-primary" %>
+  
+app/views/fights/new.html.erb:6:in `block in _app_views_fights_new_html_erb___4031353063516881634_70213561560220'
+app/views/fights/new.html.erb:5:in `_app_views_fights_new_html_erb___4031353063516881634_70213561560220'
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:33:43 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:34:40 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 16ms (Views: 13.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:34:52 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (8.6ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `pastrie_id' for #<Event:0x00007fb7c345c8b0>
+Did you mean?  pastries
+               pastries=
+               pastry_ids):
+    4: <div class="container margin-bottom">
+    5:   <%= simple_form_for [@event] do |f| %>
+    6:     <% @pastries.each do |pastrie| %>
+    7:     <%= f.check_box :pastrie_id, label: "patisserie" %>
+    8:     <% end %></br>
+    9:   <%= f.submit "Valider", class: "btn btn-primary" %>
+   10:   <% end %>
+  
+app/views/fights/new.html.erb:7:in `block (2 levels) in _app_views_fights_new_html_erb___4031353063516881634_70213574056780'
+app/views/fights/new.html.erb:6:in `block in _app_views_fights_new_html_erb___4031353063516881634_70213574056780'
+app/views/fights/new.html.erb:5:in `_app_views_fights_new_html_erb___4031353063516881634_70213574056780'
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:36:37 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.5ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:37:02 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  Rendered fights/new.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.1ms)
+
+
+  
+SyntaxError (/Users/florence/code/tests-techniques/Clothparency/app/views/fights/new.html.erb:17: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/fights/new.html.erb:17: syntax error, unexpected end-of-input, expecting end
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:37:13 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/events/1/fights" for ::1 at 2019-06-06 18:37:55 +0200
+Processing by FightsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"l6ynqLxAv06uzgIdgV/oWe5CFESnqYmDheZ83687H2UdZL5BA4mqXHN53yc7HqoCoiAR4ydLJrv8k9jhvzirmA==", "fight"=>{"pastrie_id"=>"0"}, "commit"=>"Valider", "event_id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:11
+  [1m[36mCACHE Event Load (0.0ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/fights_controller.rb:13
+  [1m[36mPastrie Load (0.3ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/fights_controller.rb:13
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 18:37:55 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fights" for ::1 at 2019-06-06 18:37:57 +0200
+Processing by FightsController#index as HTML
+  Rendering fights/index.html.erb within layouts/application
+  [1m[36mFight Load (0.2ms)[0m  [1m[34mSELECT "fights".* FROM "fights"[0m
+  ↳ app/views/fights/index.html.erb:6
+  Rendered fights/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for ::1 at 2019-06-06 18:38:00 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:6
+  Rendered events/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/4/fights/new" for ::1 at 2019-06-06 18:38:01 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"4"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.3ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 25ms (Views: 21.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/events" for ::1 at 2019-06-06 18:39:12 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:6
+  Rendered events/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 50ms (Views: 43.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/events/4/fights/new" for ::1 at 2019-06-06 18:39:14 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"4"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 32ms (Views: 19.0ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/events/4/fights" for ::1 at 2019-06-06 18:39:16 +0200
+Processing by FightsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1D0MOtFtSHvP4Q6fTK28ppnv5DmX0C3m391GxtBLStgH03ia57vjyh+neZhD9ZjOmw0P5BnUmPYFbh0U6BpRaA==", "fight"=>{"pastrie_id"=>"0"}, "commit"=>"Valider", "event_id"=>"4"}
+  [1m[36mEvent Load (0.5ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:11
+  [1m[36mCACHE Event Load (0.0ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:12
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/fights_controller.rb:13
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/fights_controller.rb:13
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 18:39:16 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 21ms (Views: 19.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fights" for ::1 at 2019-06-06 18:39:18 +0200
+Processing by FightsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/fights_controller.rb:22:in `index'
+Started PUT "/__web_console/repl_sessions/81d61a63f952fefa4fa4eca6568cca51" for ::1 at 2019-06-06 18:39:21 +0200
+Started PUT "/__web_console/repl_sessions/81d61a63f952fefa4fa4eca6568cca51" for ::1 at 2019-06-06 18:39:23 +0200
+Started PUT "/__web_console/repl_sessions/81d61a63f952fefa4fa4eca6568cca51" for ::1 at 2019-06-06 18:39:23 +0200
+  [1m[36mFight Load (0.2ms)[0m  [1m[34mSELECT  "fights".* FROM "fights" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.3/lib/active_record/log_subscriber.rb:98
+Started GET "/fights" for ::1 at 2019-06-06 18:40:09 +0200
+Processing by FightsController#index as HTML
+  Rendering fights/index.html.erb within layouts/application
+  [1m[36mFight Load (0.2ms)[0m  [1m[34mSELECT "fights".* FROM "fights"[0m
+  ↳ app/views/fights/index.html.erb:6
+  Rendered fights/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 25ms (Views: 20.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 18:40:11 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for ::1 at 2019-06-06 18:40:12 +0200
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:6
+  Rendered events/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 32ms (Views: 25.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:40:13 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 27ms (Views: 18.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:40:30 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 20ms (Views: 18.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:40:31 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 48ms (Views: 46.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 18:40:45 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.1ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 19ms (Views: 16.7ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/events/1/fights" for ::1 at 2019-06-06 18:40:49 +0200
+Processing by FightsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1ek6Rq1q6acoHXMVO1/veanPnHIec2EaQoQa8Vq+GtlfISOvEqP8tfWqri+BHq0i5a2Z1Z6RziI78b7PSr2uJA==", "fight"=>{"pastrie_id"=>"0"}, "commit"=>"Valider", "event_id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:11
+  [1m[36mCACHE Event Load (0.0ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/fights_controller.rb:13
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" WHERE "pastries"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/fights_controller.rb:13
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2019-06-06 18:40:49 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fights" for ::1 at 2019-06-06 18:40:50 +0200
+Processing by FightsController#index as HTML
+  Rendering fights/index.html.erb within layouts/application
+  [1m[36mFight Load (0.1ms)[0m  [1m[34mSELECT "fights".* FROM "fights"[0m
+  ↳ app/views/fights/index.html.erb:6
+  Rendered fights/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 20ms (Views: 17.6ms | ActiveRecord: 0.1ms)
+
+
