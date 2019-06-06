@@ -1,11 +1,8 @@
 <div class=margin-bottom>
-  <h2 class=text-center> Bonjour Linguini, quelles patisseries veux-tu choisir ?</h2>
+  <h2 class=text-center> Bonjour Linguini, quelle date veux-tu réserver ?</h2>
 </div>
 <div class="container margin-bottom">
   <%= simple_form_for [@event] do |f| %>
-    <% @pastries.each do |pastrie| %>
-    <%= f.check_box :pastrie_id %> <%= pastrie.pastrie_name %></br>
-    <% end %></br>
   <%= f.input :date, { ampm: true, order: [:day, :month, :year] } %></br>
   <%= f.submit "Valider", class: "btn btn-primary" %>
   <% end %>

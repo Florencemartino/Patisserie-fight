@@ -1,0 +1,12 @@
+<div>
+  <h2 class=text-center> Voici les dates disponibles pour choisir tes pâtisseries : </h2>
+</div>
+<div class=marge-date-of-fight>
+  <ul>
+      <% @events.each do |event| %>
+    <li>
+      <%= link_to event.date.strftime("Patisserie fight du : %d/%m/%Y") , new_event_fight_path(event.id) %>
+    </li>
+    <% end %>
+  </ul>
+</div>

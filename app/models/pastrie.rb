@@ -1,3 +1,4 @@
 class Pastrie < ApplicationRecord
-  belongs_to :event, optional: true
+  has_many :fights
+  has_many :events, through: :fights
 end

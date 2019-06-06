@@ -12,33 +12,36 @@ puts 'Cleaning database...'
 Cooker.destroy_all
 Pastrie.destroy_all
 Event.destroy_all
-
+Fight.destroy_all
 
 puts 'Creating pastries...'
-Financier = Pastrie.create!(pastrie_name: "Financier")
-Cookies = Pastrie.create!(pastrie_name: "Cookies")
-Cornes = Pastrie.create!(pastrie_name: "Cornes de Gazelle")
-Churros = Pastrie.create!(pastrie_name: "Churros")
-Flan = Pastrie.create!(pastrie_name: "Flan")
-Fruits = Pastrie.create!(pastrie_name: "Fruits")
+financier = Pastrie.create!(pastrie_name: "Financier")
+cookies = Pastrie.create!(pastrie_name: "Cookies")
+cornes = Pastrie.create!(pastrie_name: "Cornes de Gazelle")
+churros = Pastrie.create!(pastrie_name: "Churros")
+flan = Pastrie.create!(pastrie_name: "Flan")
+fruits = Pastrie.create!(pastrie_name: "Fruits")
 
-puts 'Creating event...'
-event_1 = Event.create!(date:Time.now, pastrie_id:Pastrie.first.id, pastrie_id:Pastrie.second.id )
+puts 'Creating events...'
+event_1 = Event.create!(date:Time.now)
 
 puts 'Creating cookers...'
-Antoine = Cooker.create!(name: "Antoine", pastrie: "Financier")
-Maia = Cooker.create!(name: "Maia", pastrie: "Financier")
-Xavier = Cooker.create!(name: "Xavier", pastrie: "Cookies")
-Matthieu = Cooker.create!(name: "Matthieu", pastrie: "Cookies")
-Rym = Cooker.create!(name: "Rym", pastrie: "Corne de gazelle")
-Aran = Cooker.create!(name: "Aran", pastrie: "Churros")
-Ines = Cooker.create!(name: "Ines", pastrie: "Churros")
-Marguerite = Cooker.create!(name: "Marguerite", pastrie: "Flan")
-Roxane = Cooker.create!(name: "Roxane", pastrie: "Flan")
-Sophie = Cooker.create!(name: "Sophie", pastrie: "Fruits")
-Ahmed = Cooker.create!(name: "Ahmed", pastrie: "Fruits")
-Maxime = Cooker.create!(name: "Maxime", pastrie: "Fruits")
+antoine = Cooker.create!(name: "Antoine", pastrie: "Financier")
+maia = Cooker.create!(name: "Maia", pastrie: "Financier")
+xavier = Cooker.create!(name: "Xavier", pastrie: "Cookies")
+matthieu = Cooker.create!(name: "Matthieu", pastrie: "Cookies")
+rym = Cooker.create!(name: "Rym", pastrie: "Corne de gazelle")
+aran = Cooker.create!(name: "Aran", pastrie: "Churros")
+ines = Cooker.create!(name: "Ines", pastrie: "Churros")
+marguerite = Cooker.create!(name: "Marguerite", pastrie: "Flan")
+roxane = Cooker.create!(name: "Roxane", pastrie: "Flan")
+sophie = Cooker.create!(name: "Sophie", pastrie: "Fruits")
+ahmed = Cooker.create!(name: "Ahmed", pastrie: "Fruits")
+maxime = Cooker.create!(name: "Maxime", pastrie: "Fruits")
 
+puts 'Creating fight...'
 
+fight_1 = Fight.create!(event_id: Event.first.id, cooker_id: antoine.id, pastrie_id: financier.id)
+fight_2 = Fight.create!(event_id: Event.first.id, cooker_id: maia.id, pastrie_id: financier.id)
 
 puts "Finished, we have #{Cooker.count} cookers and #{Pastrie.count} pastries."

@@ -1,0 +1,12 @@
+<div class=margin-bottom>
+  <h2 class=text-center> Bonjour Linguini, quelles patisseries veux-tu choisir ?</h2>
+</div>
+<div class="container margin-bottom">
+  <%= simple_form_for [@event, @fight] do |f| %>
+    <% @pastries.each do |pastrie| %>
+    <%= f.check_box :pastrie_id %>
+    <%= pastrie.pastrie_name %></br>
+    <% end %></br>
+  <%= f.submit "Valider", class: "btn btn-primary" %>
+  <% end %>
+</div>

@@ -1,0 +1,5 @@
+class AddPastrieToFights < ActiveRecord::Migration[5.2]
+  def change
+    add_reference :fights, :pastrie, foreign_key: true
+  end
+end
