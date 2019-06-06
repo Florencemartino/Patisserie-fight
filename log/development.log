@@ -16738,3 +16738,53 @@ Did you mean?  event_fight_path
     8:     <%= pastrie.pastrie_name %></br>
   
 app/views/fights/new.html.erb:5:in `_app_views_fights_new_html_erb___4031353063516881634_70213614934060'
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 17:17:37 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.3ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Pastrie Load (0.0ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Pastrie Load (0.0ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Pastrie Load (0.0ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Pastrie Load (0.0ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Pastrie Load (0.0ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Pastrie Load (0.0ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Pastrie Load (0.0ms)[0m  [1m[34mSELECT  "pastries".* FROM "pastries" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /Users/florence/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  Rendered fights/new.html.erb within layouts/application (196.7ms)
+Completed 500 Internal Server Error in 204ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `fight' for #<#<Class:0x00007fb7c2228900>:0x00007fb7c208cfd8>
+Did you mean?  @fight):
+    2:   <h2 class=text-center> Bonjour Linguini, quelles patisseries veux-tu choisir ?</h2>
+    3: </div>
+    4: <div class="container margin-bottom">
+    5:   <%= simple_form_for [@event, fight] do |f| %>
+    6:     <% @pastries.each do |pastrie| %>
+    7:     <%= f.check_box :pastrie_id %>
+    8:     <%= pastrie.pastrie_name %></br>
+  
+app/views/fights/new.html.erb:5:in `_app_views_fights_new_html_erb___4031353063516881634_70213605551160'
+Started GET "/events/1/fights/new" for ::1 at 2019-06-06 17:18:15 +0200
+Processing by FightsController#new as HTML
+  Parameters: {"event_id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/fights_controller.rb:5
+  Rendering fights/new.html.erb within layouts/application
+  [1m[36mPastrie Load (0.2ms)[0m  [1m[34mSELECT "pastries".* FROM "pastries"[0m
+  ↳ app/views/fights/new.html.erb:6
+  Rendered fights/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 50ms (Views: 48.1ms | ActiveRecord: 0.3ms)
+
+
