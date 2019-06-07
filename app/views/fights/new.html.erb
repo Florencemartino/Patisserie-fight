@@ -5,7 +5,7 @@
   <%= simple_form_for [@event, @fight] do |f| %>
     <% @pastries.each do |pastrie| %>
       <%= f.label :pastrie_id do %>
-      <%= f.check_box :pastrie_id, as: :boolean, checked_value: true, unchecked_value: false %> <span class="labelText"><%= pastrie.pastrie_name%></span>
+      <%= f.check_box :pastrie_id, as: :boolean, checked_value: true, unchecked_value: false %> <span><%= pastrie.pastrie_name%></span>
       <% end %></br>
     <% end %>
   <%= f.submit "Valider", class: "btn btn-primary" %>

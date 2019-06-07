@@ -10,7 +10,8 @@ class FightsController < ApplicationController
     @fight = Fight.new(fight_params)
     @event = Event.find(params[:event_id])
     @fight.event = Event.find(params[:event_id])
-    @fight.save
+    @fight.pastrie_id = params[:fight][:pastrie_id]
+    @fight.save!
     redirect_to root_path
   end
 
@@ -20,6 +21,7 @@ class FightsController < ApplicationController
 
   def index
     @fights = Fight.all
+    fights_by_event = []
   end
 
   private
