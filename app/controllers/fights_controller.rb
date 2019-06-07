@@ -7,6 +7,7 @@ class FightsController < ApplicationController
   end
 
   def create
+    @pastries = Pastrie.all
     @fight = Fight.new(fight_params)
     @event = Event.find(params[:event_id])
     @fight.event = Event.find(params[:event_id])
