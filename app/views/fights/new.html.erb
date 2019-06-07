@@ -4,7 +4,7 @@
 <div class="container margin-bottom">
   <%= simple_form_for [@event, @fight] do |f| %>
   <%= f.association :event, label_method: :date  %>
-  <%= f.association :pastrie, as: :check_boxes, label_method: :pastrie_name %>
+  <%= f.association :pastrie, label_method: :pastrie_name, checked_value: true, unchecked_value: false %>
   <%= f.button :submit, value: 'Valider la selection' %>
 <% end %>
 </div>
